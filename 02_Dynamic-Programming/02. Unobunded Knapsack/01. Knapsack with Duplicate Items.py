@@ -6,7 +6,7 @@ class Solution:
         # code here
         dp = [[0] * (W + 1) for i in range(N + 1)]
         
-        # innitializing 1st row and 1st colomn = 0
+        # innitializing 0th row and 0th colomn = 0
         # as for zero weight profit will be zero and we are placing profit in each box
             
         for i in range(1, N + 1):
