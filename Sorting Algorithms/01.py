@@ -57,7 +57,7 @@ class LinkedList:
                 head = head.next
 
 LL = LinkedList()
-a = [1,4,45,66,8,89,54,0,5,6,75,675,7,56]
+a = [1,4,45,66,8,89,54,0,5,6,75,675,7,56, 70, 259]
 for i in a:
     LL.addNode(i)
 
