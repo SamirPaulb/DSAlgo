@@ -12,7 +12,6 @@ for i in range(1001):
 
 '''
 
-
 n = int(input("Enter upto which digit you want to find Angstrom number:  "))
 
 for i in range(1,n+1):
