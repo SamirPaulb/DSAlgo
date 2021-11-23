@@ -7,7 +7,7 @@ For a weighted graph,the edge weight is usually written in place of 11.
 
 ---
 
-   **  Graph Implementation Using an Adjacency Matrix  ***
+    **  Graph Implementation Using an Adjacency Matrix  ***
 The following code implements a graph using an adjacency matrix: 
 add_vertex(v) adds new vertex v to the graph, 
 and add_edge(v1, v2, e) adds an edge with weight e between vertices v1 and v2.
