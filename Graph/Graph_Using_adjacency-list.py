@@ -6,7 +6,7 @@ stored along with the vertices.​
 
 ---
 
-   **  Graph Implementation Using an adjacency list  **
+    **  Graph Implementation Using an adjacency list  **
 The following code implements a graph using an adjacency list:
 add_vertex(v) adds new vertex v to the graph, 
 and add_edge(v1, v2, e) adds an edge with weight e between vertices v1 and v2.
