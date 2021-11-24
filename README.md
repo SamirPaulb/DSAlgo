@@ -470,36 +470,29 @@
 ---
 
 
-# 30 Days Preperation
+# 30 Days Interview Preparation Plan
 
 
 Day1: (Arrays)
 
 
-1. Sort an array of 0’s 1’s 2’s without using extra space or sorting algo
-https://leetcode.com/problems/sort-colors/
+1. [Sort an array of 0’s 1’s 2’s without using extra space or sorting algo](https://leetcode.com/problems/sort-colors/)
 
-2. Repeat and Missing Number
-https://leetcode.com/problems/missing-number/
+2. [Repeat and Missing Number](https://leetcode.com/problems/missing-number/)
 
-3. Merge two sorted Arrays without extra space
-https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
+3. [Merge two sorted Arrays without extra space](https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/)
 
-4. Kadane’s Algorithm
-https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+4. [Kadane’s Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)
 
-5. Merge Overlapping Subintervals
-https://leetcode.com/problems/merge-intervals/
+5. [Merge Overlapping Subintervals](https://leetcode.com/problems/merge-intervals/)
 
-6. Find the duplicate in an array of N+1 integers.
- https://leetcode.com/problems/find-the-duplicate-number/
+6. [Find the duplicate in an array of N+1 integers.](https://leetcode.com/problems/find-the-duplicate-number/)
 
 
 
 Day2: (Arrays)
 
-1. Set Matrix Zeros
-https://leetcode.com/problems/set-matrix-zeroes/
+1. [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)
 
 2. Pascal Triangle
 
@@ -590,11 +583,9 @@ Day6:
     
 2. Detect a cycle in Linked List
   
-  
 3. Reverse a LinkedList in groups of size k
 
 4. Check if a LinkedList is palindrome or not.
-  
     
 5. Find the starting point of the Loop of LinkedList
     
@@ -663,6 +654,7 @@ Day9 (Recursion):
     
 6. K-th permutation Sequence
     
+    
 
 Day10: (Recursion and Backtracking)
 
@@ -679,10 +671,11 @@ Day10: (Recursion and Backtracking)
     
     
 5. Rat in a Maze
-    
 
 
-6.Word Break (print all ways) (Will be covered later in DP series)
+6.Word Break -> print all ways
+
+
 
 Day11 : (Binary Search)
 
@@ -750,25 +743,16 @@ Day14:
     
 
 
-Clean code :
-
-
 3. LFU Cache (Hard, can be ignored)
     
     
 4.Largest rectangle in histogram (Do the one pass solution)
 
-Two pass:
-https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJk
-ONnb1wdx2Ma&index=
+[Two pass](https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=)
 
-One pass:
-https://www.youtube.com/watch?v=jC_cWLy7jSI&list=PLgUwDviBIf0p4ozDR_kJJkO
-Nnb1wdx2Ma&index=
+[One pass](https://www.youtube.com/watch?v=jC_cWLy7jSI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=)
 
-5. Sliding Window maximum
-    https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJk
-    ONnb1wdx2Ma&index=
+5. Sliding Window maximum [video](https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=)
 6. Implement Min Stack
 7. Rotten Orange (Using BFS)
 8. Stock Span Problem
@@ -841,9 +825,7 @@ Day22: (Mixed Questions)
 5. K-th largest element in an unsorted array.
 6. Flood-fill Algorithm
 
-Day23: (Graph)
-https://www.youtube.com/watch?v=LCrovIMurxY&list=PLgUwDviBIf0rGEWe64KWas0Nryn
-SCRWw&index=
+Day23: (Graph) [Theory](https://www.youtube.com/watch?v=LCrovIMurxY&list=PLgUwDviBIf0rGEWe64KWas0NrynSCRWw&index=)
 1. Clone a graph (Not that easy as it looks)
 2. DFS
 3. BFS
@@ -852,9 +834,7 @@ SCRWw&index=
 6. Number of islands (Do in Grid and Graph both)
 7. Bipartite Check
 
-Day24: (Graph)
-https://www.youtube.com/watch?v=LCrovIMurxY&list=PLgUwDviBIf0rGEWe64KWas0Nryn
-SCRWw&index=
+Day24: (Graph) [Theory](https://www.youtube.com/watch?v=LCrovIMurxY&list=PLgUwDviBIf0rGEWe64KWas0NrynSCRWw&index=)
 1. SCC(using KosaRaju’s algo)
 2. Djisktra’s Algorithm
 3. Bellman Ford Algo
@@ -884,8 +864,7 @@ Day26: (DP)
 6. Word Break
 7. Palindrome Partitioning (MCM Variation)
 8. Maximum profit in Job scheduling
-https://docs.google.com/document/d/1sQlRDw6--HwyxeFL7b4kBsOG-Tz7rXMb
-pWNnfvJErA4/edit(For core revision)
+[For core revision</>](https://docs.google.com/document/d/1sQlRDw6--HwyxeFL7b4kBsOG-Tz7rXMbpWNnfvJErA4/edit)
 
 Day27:
 
