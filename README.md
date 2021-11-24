@@ -888,5 +888,14 @@ Day30:
     say for 3-10 minutes when he asks you that say something about the project.
 
 
+---
 
+
+### System Design Interview Questions – Concepts You Should Know
+
+1. https://www.freecodecamp.org/news/systems-design-for-interviews/
+
+2. https://github.com/shashank88/system_design
+
+---
 
