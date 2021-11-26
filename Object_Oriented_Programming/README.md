@@ -1,2 +1,3 @@
 # PythonOOP
-The Original Code repository for my Python OOP Series
+The Code repository for Python OOP Concepts
+[Tutorial](https://www.youtube.com/watch?v=Ej_02ICOIgs)
