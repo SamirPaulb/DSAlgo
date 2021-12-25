@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=-fx6aDxcWyg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=25
 # https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1
+# https://leetcode.com/problems/delete-operation-for-two-strings/
 
 class Solution:
 	def minOperations(self, s1, s2):
