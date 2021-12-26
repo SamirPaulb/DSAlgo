@@ -3,7 +3,7 @@
 
 '''
 Using Printing Longest Common Subsequence(LCS)
-The reverse Path of printting LCS in dp matrix is the Common Supersequence
+The Path of printing LCS in dp matrix is the Common Supersequence
 which contains both strings X and Y
 '''
 class Solution:
@@ -43,6 +43,6 @@ class Solution:
             res += Y[j-1]
             j -= 1
         
-        return res[::-1]  # reverse of res and we have traversed from the end
+        return res[::-1]  # reverse of res as we have traversed from the end
     
                 
