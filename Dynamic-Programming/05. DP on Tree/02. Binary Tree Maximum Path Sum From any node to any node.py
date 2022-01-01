@@ -9,7 +9,7 @@ class Solution:
         def solve(root):
             # Base case
             if not root: return 0
-            
+             
             # l and r store maximum path sum going through left and right child of root respectively
             l = solve(root.left)
             r = solve(root.right)
