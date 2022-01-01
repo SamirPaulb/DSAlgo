@@ -1,6 +1,6 @@
 # https://www.youtube.com/watch?v=F7wqWbqYn9g&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=11
 # https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1#
-# https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+# https://leetcode.com/problems/
 
 class Solution:
 	def perfectSum(self, arr, n, sum):
@@ -22,3 +22,16 @@ class Solution:
 
         return dp[n][sum]
         
+
+	
+	
+	
+	
+'''
+Given an array arr[] of integers and an integer sum, the task is to count all subsets of the given array with a sum equal to a given sum.
+Input: arr[] = {2, 3, 5, 6, 8, 10}
+       sum = 10
+Output: 3
+Explanation: {2, 3, 5}, {2, 8}, {10}
+
+'''
