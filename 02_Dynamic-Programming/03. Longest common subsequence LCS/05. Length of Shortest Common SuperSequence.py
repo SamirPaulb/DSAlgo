@@ -17,4 +17,4 @@ for i in range(1, m+1):
 
 LCS = dp[-1][-1]  # LCS = 4  => "GTAB"
 # After Eleminating common subsequence elements from X + Y; length of X + Y becomes = m + n - LCS
-print(m + n + LCS)
+print(m + n - LCS)
