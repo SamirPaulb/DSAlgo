@@ -27,3 +27,6 @@ class Solution:
         
         return len(S) - LPS
 
+
+# For minmum number of deletion, LCS charecters are already palindromic so we have to delete elements which are not palindromic which is epual to len(S) - LCS.    
+# For minmum number of insertions LCS charecters are already palindromic so we have to insert same number of non LCS charecters which is equal to len(S) - LCS.
