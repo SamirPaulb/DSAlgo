@@ -1,47 +1,46 @@
-# https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1
+# https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1#
+'''
+We are adding max cost of previous path to the present path
+Given Paths traversing paterns are:
+Matrix[r+1][c] 
+Matrix[r+1][c-1]
+Matrix[r+1][c+1]
 
-# Python 3 program for finding max path in matrix
-# To calculate max path in matrix
+At the current cell we want to find from what previous path we have come from so that
+the cost would be maximum.
+So from the Paths traversing paterns if we want to find the previous pathtraversing paterns 
+the patters will change to:
+Matrix[r+1][c]   => Matrix[r-1][c]   => Matrix[i-1][c] 
+Matrix[r+1][c-1] => Matrix[r-1][c+1] => Matrix[i-1][j+1]
+Matrix[r+1][c+1] => Matrix[r-1][c-1] => Matrix[i-1][j-1]
+'''
 
-def findMaxPath(mat):
-
-	for i in range(1, N):
-
-		res = -1
-		for j in range(M):
-
-			# When all paths are possible
-			if (j > 0 and j < M - 1):
-				mat[i][j] += max(mat[i - 1][j],
-								max(mat[i - 1][j - 1],
-									mat[i - 1][j + 1]))
-
-			# When diagonal right is not possible
-			elif (j > 0):
-				mat[i][j] += max(mat[i - 1][j],
-								mat[i - 1][j - 1])
-
-			# When diagonal left is not possible
-			elif (j < M - 1):
-				mat[i][j] += max(mat[i - 1][j],
-								mat[i - 1][j + 1])
-
-			# Store max path sum
-			res = max(mat[i][j], res)
-	return res
-
-# Driver program to check findMaxPath
-N=4
-M=6
-mat = ([[ 10, 10, 2, 0, 20, 4 ],
-		[ 1, 0, 0, 30, 2, 5 ],
-		[ 0, 10, 4, 0, 2, 0 ],
-		[ 1, 0, 2, 20, 0, 4 ]])
-			
-print(findMaxPath(mat))
+class Solution:
+    def maximumPath(self, N, Matrix):
+        
+        mat = Matrix
+        res = max(mat[0])  # if mat contains only 1 row
+        
+        for i in range(1, len(mat)):
+            for j in range(len(mat[0])):
+                
+                if j > 0 and j < len(mat)-1: 
+                    mat[i][j] += max(mat[i-1][j], mat[i-1][j+1], mat[i-1][j-1])
+                    
+                elif j == 0:
+                    mat[i][j] += max(mat[i-1][j], mat[i-1][j+1])
+                    
+                elif j == len(mat)-1:
+                    mat[i][j] += max(mat[i-1][j-1], mat[i-1][j])
+                
+                res = max(res, mat[i][j])
+        
+        return res
+        
+        
+        
 
 
-
-# Time Complexity: O(N*M)
-
+# Time Complexity: O(len(Matrix) * len(Matrix[0]))
+# Space Complexity: O(1)  # we are not taking any new matrix only making changes in the given matrix.
 
