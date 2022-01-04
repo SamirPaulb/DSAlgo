@@ -1,7 +1,7 @@
 # https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1#
 '''
 We are adding max cost of previous path to the present path
-Given Paths traversing paterns are:
+Given Paths traversing paterns are: From Matrix[r][c] we can go to:
 Matrix[r+1][c] 
 Matrix[r+1][c-1]
 Matrix[r+1][c+1]
@@ -39,8 +39,6 @@ class Solution:
         
         
         
-
-
 # Time Complexity: O(len(Matrix) * len(Matrix[0]))
 # Space Complexity: O(1)  # we are not taking any new matrix only making changes in the given matrix.
 
