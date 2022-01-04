@@ -1,45 +1,88 @@
+# https://leetcode.com/problems/longest-increasing-subsequence/
 # https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1
 
-# Return length of the longest increasing subsequence in arr of size n
+# ----------- Method 1 ------------------------------------------------------------------
 
-def lis(arr):
-	n = len(arr)
-
-	# Declare the list (array) for LIS and
-	# initialize LIS values for all indexes
-	lis = [1]*n
-
-	# Compute optimized LIS values in bottom up manner
-	for i in range(1, n):
-		for j in range(0, i):
-			if arr[i] > arr[j] and lis[i] < lis[j] + 1:
-				lis[i] = lis[j]+1
-
-	# Initialize maximum to 0 to get
-	# the maximum of all LIS
-	maximum = 0
-
-	# Pick maximum of all LIS values
-	for i in range(n):
-		maximum = max(maximum, lis[i])
-
-	return maximum
-# end of lis function
-
-
-# Driver program to test above function
-arr = [10, 22, 9, 33, 21, 50, 41, 60]
-print ("Length of lis is", lis(arr))
+# https://www.youtube.com/watch?v=odrfUCS9sQk
+class Solution:
+    def lengthOfLIS(self, nums):
+        # taking a array of length len(nums)
+        # element of this array will be length of longest increasing subsequence upto that index of nums including nums[i]
+        dp = [0] * len(nums)
+        
+        for i in range(len(nums)):
+            temp = 0
+            for j in range(i):
+                if nums[j] < nums[i]:
+                    temp = max(temp, dp[j])
+            dp[i] = temp + 1
+        
+        res = 0
+        for i in range(len(nums)):
+            res = max(res, dp[i])
+            
+        return res
+# Time Complexity = O(N*N/2) = O(N*N)
+# Space Complexity = O(N)  # as we took a 1D array
 
 
 
-''' 
-Complexity Analysis : O(n*n)
+# ----------- Method 2 ---------------------------------------------------------------------
 
-As nested loop is used
+# Using Binary search in DP => time optimization => O(N logN)
+# https://www.youtube.com/watch?v=TocJOW6vx_I
+import bisect
+class Solution:
+    def lengthOfLIS(self, nums):
+        f = []
+        for i in range(len(nums)):
+            if not f or nums[i] > f[-1]:
+                f.append(nums[i])
+            else:
+                pos = bisect.bisect_left(f, nums[i])  # bisect_left function of bisect module is used to find left most value or first occurrence of target element(internally uses binary search). eg, arr = [1,2,2,2,3,4,5] here bisect.bisect_left(arr, 2) = 1 index 
+                f[pos] = nums[i]
+        return len(f)
 
-Space Complexity : O(n*n)
-
-As a matrix is used for storing the values.
-
+# Time Complexity = O(N log(N)) 
+# Space Complexity = O(N)  # as we took a 1D array
 '''
+Apply in sorted array
+
+bisect.bisect_left(array, target)  => first occurrence of target in array (left most index target)
+bisect.bisect_right(array, target) => Last occurrence of target in array (right most index target)
+
+Ex: 
+arr = [0, 0, 1, 1, 1, 1, 1, 5]
+bisect.bisect_left(arr, 1) = 2
+bisect.bisect_right(arr, 1) = 6
+'''
+
+
+# ----------- Method 3 ------------------------------------------------------------------
+
+class Solution:
+    def lengthOfLIS(self, nums):
+        arr = []
+        for i in range(len(nums)):
+            if not arr or nums[i] > arr[-1]:
+                arr.append(nums[i])
+            else:
+                index = self.binarySearchLeftMost(arr, nums[i])
+                arr[index] = nums[i]
+        return len(arr)
+        
+    def binarySearchLeftMost(self, arr, target):
+        l = 0; r = len(arr) - 1
+        while l <= r:
+            mid = (l+r) // 2
+            if arr[mid] < target:
+                l = mid + 1
+            else:
+                r = mid - 1
+        return l
+            
+# Time Complexity = O(N log(N))
+# Space Complexity = O(N)  # as we took a 1D array
+        
+        
+        
