@@ -1,15 +1,15 @@
 # https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1#
 '''
 We are adding max cost of previous path to the present path
-Given Paths traversing paterns are: From Matrix[r][c] we can go to:
+Given Paths traversing patterns are: From Matrix[r][c] we can go to:
 Matrix[r+1][c] 
 Matrix[r+1][c-1]
 Matrix[r+1][c+1]
 
 At the current cell we want to find from what previous path we have come from so that
 the cost would be maximum.
-So from the Paths traversing paterns if we want to find the previous pathtraversing paterns 
-the patters will change to:
+So from the Paths traversing patterns if we want to find the previous path traversing patterns 
+the given patters will change to:
 Matrix[r+1][c]   => Matrix[r-1][c]   => Matrix[i-1][c] 
 Matrix[r+1][c-1] => Matrix[r-1][c+1] => Matrix[i-1][j+1]
 Matrix[r+1][c+1] => Matrix[r-1][c-1] => Matrix[i-1][j-1]
