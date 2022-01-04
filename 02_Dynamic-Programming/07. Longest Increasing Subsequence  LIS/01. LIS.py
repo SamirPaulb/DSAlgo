@@ -46,7 +46,7 @@ class Solution:
 # Time Complexity = O(N log(N)) 
 # Space Complexity = O(N)  # as we took a 1D array
 '''
-Apply in sorted array
+bisect is applied in sorted array
 
 bisect.bisect_left(array, target)  => first occurrence of target in array (left most index target)
 bisect.bisect_right(array, target) => Last occurrence of target in array (right most index target)
