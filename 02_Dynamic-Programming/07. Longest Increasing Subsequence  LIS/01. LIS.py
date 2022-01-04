@@ -43,7 +43,7 @@ class Solution:
                 f[pos] = nums[i]
         return len(f)
 
-# Time Complexity = O(N log(N)) 
+# Time Complexity = O(N log(N)) # N for traversal through nums and as bisect internally uses binary search so log(N)
 # Space Complexity = O(N)  # as we took a 1D array
 '''
 bisect is applied in sorted array
