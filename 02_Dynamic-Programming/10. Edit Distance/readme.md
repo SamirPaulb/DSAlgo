@@ -16,6 +16,6 @@ rose -> ros (remove 'e')
 [Solution using DP](https://github.com/SamirPaul1/DSAlgo/blob/main/02_Dynamic-Programming/10.%20Edit%20Distance/02.%20Edit%20Distance%20Tabular%20DP.py)
 
 
-![Edit Distance](https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_1.jpg)
-![Edit Distance](https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_2.jpg)
-![Edit Distance](https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_3.jpg)
+<a href="https://github.com/SamirPaulb/assets/blob/main/edit-distance.pdf"><img src="https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_1.jpg" /></a>
+<a href="https://github.com/SamirPaulb/assets/blob/main/edit-distance.pdf"><img src="https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_2.jpg" /></a>
+<a href="https://github.com/SamirPaulb/assets/blob/main/edit-distance.pdf"><img src="https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_3.jpg" /></a>
