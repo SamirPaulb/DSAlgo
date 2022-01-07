@@ -1,0 +1,38 @@
+# https://practice.geeksforgeeks.org/problems/gold-mine-problem2608/1/#
+
+# Traversing from bottom-right most to top-left most corner; same as 02. Maximum path sum in matrix.py
+'''
+Available Moves from (i, j) for Maximum Profit:
+1. diagonally up towards the right => (i-1, j+1)
+2. right => (i, j+1)
+3. diagonally down towards the right => (i+1, j+1)
+'''
+# AS IN ALL MOVES WE NEED VALUE OF (j+1) CELL SO WE HAVE TO TRAVERSE COLUMN WISE 
+# to find the value of right column the use it to calculate value of left column
+class Solution:
+    def maxGold(self, n, m, M):
+        
+        def get(x, y, r, c):   # to get value from Matrix, this if else can be used in loops also
+            if x > r or x < 0: return 0
+            elif y > c or y < 0: return 0
+            else: return M[x][y]
+        
+        res = 0
+        
+        if m == 1:  # 1 Single column
+            for i in range(n):
+                # Can't get value of right column and can't move downward so max of this single column is result
+                res = max(res, M[i][0])
+            return res
+        
+        # TRAVERSE COLUMN-WISE 
+        # First calculate (m-2)th column from bottom row to top row then same for (m-3)th column and so on
+        for j in range(m-2, -1, -1): # can't include right most column as as right most column can't get value of it's right cell
+            for i in range(n-1, -1, -1):
+                M[i][j] += max( get(i-1,j+1,n-1,m-1),
+                                get(i,j+1,n-1,m-1), 
+                                get(i+1,j+1,n-1,m-1))
+                res = max(res, M[i][j])
+            
+        return res  # Max Path of all cells in the matrix
+        
