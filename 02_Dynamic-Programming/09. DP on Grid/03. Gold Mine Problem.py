@@ -1,6 +1,6 @@
 # https://practice.geeksforgeeks.org/problems/gold-mine-problem2608/1/#
 
-# Traversing from bottom-right most to top-left most corner; same as 02. Maximum path sum in matrix.py
+# Traversing from bottom-right most to top-left most corner; same as Method-1 of 02. Maximum path sum in matrix.py
 '''
 Available Moves from (i, j) for Maximum Profit:
 1. diagonally up towards the right => (i-1, j+1)
@@ -36,3 +36,7 @@ class Solution:
             
         return res  # Max Path of all cells in the matrix
         
+        
+   
+# Time Complexity: O(n * m)
+# Space Complexity: O(1)  # as we are not taking any new matrix only making changes in the given matrix.
