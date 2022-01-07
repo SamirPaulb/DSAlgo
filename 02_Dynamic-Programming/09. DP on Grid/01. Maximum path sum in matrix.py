@@ -33,6 +33,7 @@ class Solution:
             
 # ------------------------------------------------ Method 2 --------------------------------------------------------------------------------
 
+# Traversing from top-left most to bottom-right most corner
 '''
 We are adding max cost of previous path to the present path
 Given Paths traversing patterns are: From Matrix[r][c] we can go to:
