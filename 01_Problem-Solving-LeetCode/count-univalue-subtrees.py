@@ -1,0 +1,26 @@
+# Time:  O(n)
+# Space: O(h)
+
+class Solution(object):
+    # @param {TreeNode} root
+    # @return {integer}
+    def countUnivalSubtrees(self, root):
+        [is_uni, count] = self.isUnivalSubtrees(root, 0)
+        return count
+
+    def isUnivalSubtrees(self, root, count):
+        if not root:
+            return [True, count]
+
+        [left, count] = self.isUnivalSubtrees(root.left, count)
+        [right, count] = self.isUnivalSubtrees(root.right, count)
+        if self.isSame(root, root.left, left) and \
+           self.isSame(root, root.right, right):
+                count += 1
+                return [True, count]
+
+        return [False, count]
+
+    def isSame(self, root, child, is_uni):
+        return not child or (is_uni and root.val == child.val)
+
