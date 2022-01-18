@@ -10,11 +10,11 @@ l = max(A) = 90
 r = sum(A) = 203
 
 90----------------------------------------------------------------146--------------------------------------------203
-l                                                                 mid                                           r
+l                                                                 mid                                             r
 mid = 146 isValid so ans = mid = 146; I will try to decrease mid => r = mid - 1 = 145 
 
 90-------------------------------------117------------------------145
-l                                      mid                        r
+l                                      mid                         r
 mid = 117 isValid so ans = mid = 117; I will try to decrease mid => r = mid - 1 = 116
 
 90--------------103--------------------116
@@ -44,7 +44,7 @@ class Solution:
     def findPages(self,A, N, M):
         l = max(A); r = sum(A); ans = -1
         
-        if len(A) < M: return -1  # Number of books can not be lesser than number of of students as we have to give atleast 1 book to a student
+        if len(A) < M: return -1  # Number of books can not be lesser than number of students as we have to give atleast 1 book to a student
 
         def isValid(A, M, mid):
             pageSum = 0           # sum of pages of A that can be allocated to one student
@@ -54,7 +54,7 @@ class Solution:
                 pageSum += pages
                 if pageSum > mid:          # sum of pages allocated to one student exceed max capacity of the student
                     requiredStudents += 1  # We need one more student
-                    pageSum = pages        # start calculating sum of pages can be allocated to next student
+                    pageSum = pages        # start calculating sum of pages that can be allocated to next student
             
             if requiredStudents > M: return False
             else: return True
@@ -64,7 +64,7 @@ class Solution:
             mid = l + (r - l) // 2
             
             if isValid(A, M, mid):
-                ans = mid         # Updating answer the the current mid as it is the most optimized(least) ans till now
+                ans = mid         # Updating answer to current mid as current mid is the most optimized(least) ans till now
                 r = mid - 1       # I will try to decrease mid
             else:
                 l = mid + 1       # current mid NOT isValid so I will try to increase mid
