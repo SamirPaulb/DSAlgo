@@ -22,9 +22,9 @@ Space Complexity: O(N)  ; if you don't count the output array, because the size 
 
 # -------------------------------------------- Method 2 ---------------------------------------------------------
 # DFS => Taking subset as a Global variable
+# https://youtu.be/REOH22Xwdkk
 class Solution:
     def subsets(self, nums):
-        # https://youtu.be/REOH22Xwdkk
         res = []
         subset = []  # Global variable to use in all dfs calls
         def dfs(i):
