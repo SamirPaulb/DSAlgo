@@ -893,9 +893,11 @@ Day30:
 
 ### System Design Interview Questions – Concepts You Should Know
 
-1. https://www.freecodecamp.org/news/systems-design-for-interviews/
+1. https://github.com/SamirPaul1/system-design-primer
 
-2. https://github.com/shashank88/system_design
+2. https://www.freecodecamp.org/news/systems-design-for-interviews/
+
+3. https://github.com/shashank88/system_design
 
 ---
 
