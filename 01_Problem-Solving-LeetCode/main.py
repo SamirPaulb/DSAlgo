@@ -1,7 +1,7 @@
 import os
 
 ## Number of days you want to make commits
-for i in range(1,165*2 + 1):
+for i in range(1,365*2 + 1):
     d = str(i) + '---'
     ## Open a text file and modify it
     with open('bot.txt', 'a') as file:
