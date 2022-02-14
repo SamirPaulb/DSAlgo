@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/word-break/
 # https://youtu.be/Sx9NNgInc3A
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         '''
