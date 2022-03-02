@@ -22,5 +22,5 @@ class Solution:
         
         return len(maxMeet)
         
-# Time Complexity: O(N)
+# Time Complexity: O(N log(N))
 # Space Complexity: O(N)
