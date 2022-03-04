@@ -14,7 +14,7 @@ class Solution:
             
             if curSum < 0: curSum += k
             
-            curSum = curSum 
+            curSum = curSum % k
             
             if curSum in remainderCountDic:
                 ans += remainderCountDic[curSum]
