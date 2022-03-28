@@ -33,7 +33,8 @@ class Solution(object):
                 i += 1
             dp.append(max_product)
         return dp[n]
-
+# Time: O(n^2)
+# Space: O(n)
 
 # Method 3 ------ Mathematics -------
 '''
