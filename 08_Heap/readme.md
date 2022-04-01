@@ -4,7 +4,8 @@ Using Library functions :
 We use heapq class to implement Heaps in Python. 
 By default Min Heap is implemented by this class. 
 But we multiply each value by -1 so that we can use it as MaxHeap.
-
+1. **heappush**: new child node is added to the binary tree in left to right order
+2. **heappop**: the main root node is removed from the binary tree as it is the smallest node is the BT.
 
 
 
