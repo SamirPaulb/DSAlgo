@@ -38,3 +38,5 @@ heapq.heapify(arr)
 print(heapq.heappop(arr))  
 # Output = 1  # as by default python heap is MinHeap
 ```
+
+
