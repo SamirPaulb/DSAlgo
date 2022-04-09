@@ -23,7 +23,9 @@ class Solution:
                 res.append(nums[q[0]])  # as q[0] is largest value in that window 
         
         return res
-    
+
+# Time: O(N)
+# Space: O(k)    
 
 '''
 Deque (Doubly Ended Queue) in Python is implemented using the module “collections“. 
