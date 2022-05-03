@@ -30,6 +30,11 @@ class Solution:
 
 
 # Optimal Solution:
+# https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/discuss/785548/JavaC++Python-O(1)-Solutions
+
 class Solution:
     def findKthBit(self, n, k):
         return str(k / (k & -k) >> 1 & 1 ^ k & 1 ^ 1)
+
+# Time: O(1)
+# Space: O(1)
