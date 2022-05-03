@@ -21,7 +21,7 @@ You can also refer to the following list of important questions recommended by [
 | Array                        | Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo      | <->                                                                      |
 | Array                        | Move all the negative elements to one side of the array                                              | <->                                                                      |
 | Array                        | Find the Union and Intersection of the two sorted arrays.                                            | <->                                                                      |
-| Array                        | Write a program to cyclically rotate an array by one.                                                | https://leetcode.com/submissions/detail/518315170/                       |
+| Array                        | Write a program to cyclically rotate an array by one.                                                | https://leetcode.com/problems/rotate-array/                       |
 | Array                        | find Largest sum contiguous Subarray [V. IMP]                                                        | https://leetcode.com/problems/maximum-subarray/                          |
 | Array                        | Minimise the maximum difference between heights [V.IMP]                                              | https://leetcode.com/problems/smallest-range-ii/                         |
 | Array                        | Minimum no. of Jumps to reach end of an array                                                        | https://leetcode.com/problems/jump-game                                  |
