@@ -5,7 +5,6 @@
 # Brute Force Solution
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
-
         def revinv(s):
             s = list(s)
             for i in range(len(s)):
@@ -23,7 +22,6 @@ class Solution:
             dp[i] = dp[i-1] + '1' + revinv(dp[i-1])
         
         return dp[-1][k-1]
-
 # Time: O(n^2)
 # Space: (n)
 ''' 
@@ -34,7 +32,7 @@ class Solution:
 
 class Solution:
     def findKthBit(self, n, k):
-        return str(k / (k & -k) >> 1 & 1 ^ k & 1 ^ 1)
+        return str(k // (k & -k) >> 1 & 1 ^ k & 1 ^ 1)
 
 # Time: O(1)
 # Space: O(1)
