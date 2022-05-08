@@ -3,7 +3,7 @@
 ''' 
 Use Merge Sort to reduce the time complexity from O(n^2) to O(n log(n))
 In the merge function we check if the left array pointer is greater than right array pointer
-then all elements right of left array pointer will be greater as both of the arrays are sorted.
+then all elements right-side of left array pointer will be greater as both of the arrays are sorted.
 '''
 
 from os import *

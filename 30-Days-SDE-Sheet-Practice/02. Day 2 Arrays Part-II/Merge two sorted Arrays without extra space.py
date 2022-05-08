@@ -10,11 +10,11 @@ class Solution:
             else:
                 nums1[m+n-1] = nums2[n-1]
                 n -= 1
-        
+            
         while n > 0:
             nums1[n-1] = nums2[n-1]
             n -= 1
-        
+                 
         return nums1
 
 # Time: O(N)
@@ -29,7 +29,7 @@ GAP Algorithm
 Approach:
 Initially take the gap as ceil() of (m+n)/2
 Take as a pointer1 = 0 and pointer2 = gap.
-Run a oop from pointer1 &  pointer2 to  m+n and whenever arr[pointer2] < arr[pointer1], swap those.
+Run a loop from pointer1 &  pointer2 to  m+n and whenever arr[pointer2] < arr[pointer1], swap those.
 After completion of the loop reduce the gap as gap = gap // 2.
 Repeat the process until gap > 0.
 '''
