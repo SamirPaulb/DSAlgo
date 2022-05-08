@@ -1,4 +1,9 @@
 # https://leetcode.com/problems/next-permutation/
+''' 
+Next Permutation = elemtnt Just Greater than the current element.
+So find the elemnt from traversing from end. if nums[i] > nums[i-1] we can swap these and get the 
+value. but there may any greater element in right. 
+'''
 
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:

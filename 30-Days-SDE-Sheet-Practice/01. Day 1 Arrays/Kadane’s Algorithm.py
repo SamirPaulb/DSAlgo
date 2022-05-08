@@ -1,4 +1,8 @@
 # https://leetcode.com/problems/maximum-subarray/
+''' 
+continuously adding new elements to cs and also checking if the current value is greater or not.
+if greater then start from current element.
+'''
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
