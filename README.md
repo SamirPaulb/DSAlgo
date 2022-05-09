@@ -534,6 +534,9 @@ The following list of questions was recommended by [Love Babbar](https://www.you
 
 ### [30 Days Interview Preparation Plan](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
 
+<b></b>
+Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
+
 <b> </b> 
    
 Day1: (Arrays)
