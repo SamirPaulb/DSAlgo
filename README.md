@@ -5,7 +5,7 @@
 
 <a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpeg"></a>
 
-In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.
+In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
 
 :heavy_check_mark:  <ins>_**Topics Covered**_</ins>:
 - [x]  [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming)
@@ -33,18 +33,25 @@ In this repository, I have stored solutions to various problems and concepts of 
 
 In various folders of the above topics, you can find questions and concepts related to that topic. 
 
-- In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 
+- In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 🙌
 
-- If you are preparing for an interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.
+- If you are preparing for an interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.🎯
 
 - In the  [**Questions-Sheet**](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet) directory, you can find questions asked by top product-based companies.
 
-- There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.
+- There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
-I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository. 
+I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
 ---
-You can also refer to the following list of important questions recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) and [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) to ace your coding interview.
+You can also refer to ↓👇 
+<details>
+    <summary> <b> List of Important Questions recommended by Love Babbar✌️</b></summary>
+
+<b></b>
+    
+_The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA).
+I have documented all those questions here._
 
 
 | Topic                      | Important DSA Questions                                                                              | Link                                                                |
@@ -516,32 +523,41 @@ You can also refer to the following list of important questions recommended by [
 | Moore voting algorithm       | Majority Element II                                                                                  | https://www.youtube.com/watch?v=yDbkQd9t2ig                              |
 
 
----
+</details>
+    
 
+<b> </b>
+    
 
-# 30 Days Interview Preparation Plan
+<details>
+    <summary> <b> 30 Days Interview Preparation Plan🎯 </b></summary>
+    
+<b> </b>
 
+👉  <b> https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice</b>
 
+<b> </b> 
+   
 Day1: (Arrays)
 
 
-1. [Sort an array of 0’s 1’s 2’s without using extra space or sorting algo](https://leetcode.com/problems/sort-colors/)
+1. Sort an array of 0’s 1’s 2’s without using extra space or sorting algo
 
-2. [Repeat and Missing Number](https://leetcode.com/problems/missing-number/)
+2. Repeat and Missing Number
 
-3. [Merge two sorted Arrays without extra space](https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/)
+3. Merge two sorted Arrays without extra space
 
-4. [Kadane’s Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)
+4. Kadane’s Algorithm
 
-5. [Merge Overlapping Subintervals](https://leetcode.com/problems/merge-intervals/)
+5. Merge Overlapping Subintervals
 
-6. [Find the duplicate in an array of N+1 integers.](https://leetcode.com/problems/find-the-duplicate-number/)
+6. Find the duplicate in an array of N+1 integers.
 
 
 
 Day2: (Arrays)
 
-1. [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)
+1. Set Matrix Zeros
 
 2. Pascal Triangle
 
@@ -549,11 +565,10 @@ Day2: (Arrays)
 3. Next Permutation
 
 
-
-4.Inversion of Array (Using Merge Sort)
+4. Inversion of Array (Using Merge Sort)
 
     
-5.Stock Buy and Sell
+5. Stock Buy and Sell
 
     
 6. Ro tate Matrix
@@ -591,13 +606,13 @@ Day4: (Hashing)
 
 
 
-3. Longest Consecutive Sequence**
+3. Longest Consecutive Sequence
 
     
 4. Largest Subarray with 0 sum
 
     
-5. Count number of subarrays with given XOR** (this clearsa lot of problems)
+5. Count number of subarrays with given XOR (this clearsa lot of problems)
 
     
 6. Longest substring without repeat
@@ -936,11 +951,15 @@ Day30:
     related to tech which you have used in your projects. Prepare a note which you can
     say for 3-10 minutes when he asks you that say something about the project.
 
+</details>
+    
 
----
+<b> </b>
+    
 
-
-### System Design Interview Questions – Concepts You Should Know
+<details>
+    <summary> <b> System Design – Concepts </b></summary>
+    
 
 1. https://github.com/SamirPaul1/system-design-primer
 
@@ -948,5 +967,5 @@ Day30:
 
 3. https://github.com/shashank88/system_design
 
----
+</details>
 
