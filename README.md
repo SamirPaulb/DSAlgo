@@ -7,7 +7,30 @@
 
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.
 
-In various folders ( [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming),  [**Sorting Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/03_Sorting-Algorithms),  [**LinkedList**](https://github.com/SamirPaul1/DSAlgo/tree/main/04_LinkedList),  [**Object-Oriented Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/05_Object-Oriented-Programming),  [**Binary Trees**](https://github.com/SamirPaul1/DSAlgo/tree/main/06_Binary-Trees),  [**Graph Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/07_Graph),  [**Heap**](https://github.com/SamirPaul1/DSAlgo/tree/main/08_Heap),  [**Matrix**](https://github.com/SamirPaul1/DSAlgo/tree/main/09_Matrix),  [**Trie**](https://github.com/SamirPaul1/DSAlgo/tree/main/10_Trie),  [**Binary Search**](https://github.com/SamirPaul1/DSAlgo/tree/main/11_Binary-Search),  [**Backtracking**](https://github.com/SamirPaul1/DSAlgo/tree/main/12_Backtracking),  [**Stack**](https://github.com/SamirPaul1/DSAlgo/tree/main/13_Stack),  [**Queue**](https://github.com/SamirPaul1/DSAlgo/tree/main/14_Queue),  [**Greedy**](https://github.com/SamirPaul1/DSAlgo/tree/main/15_Greedy),  [**String**](https://github.com/SamirPaul1/DSAlgo/tree/main/16_String),  [**Bit Manipulation**](https://github.com/SamirPaul1/DSAlgo/tree/main/17_Bit-Manipulation),  [**Array**](https://github.com/SamirPaul1/DSAlgo/tree/main/18_Array),  [**HashMap**](https://github.com/SamirPaul1/DSAlgo/tree/main/19_HashMap),  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS),  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers),  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) ) you can find questions and concepts related to that topic. 
+:heavy_check_mark:  <ins>_**Topics Covered**_</ins>:
+- [x]  [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming)
+- [x]  [**Sorting Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/03_Sorting-Algorithms)
+- [x]  [**LinkedList**](https://github.com/SamirPaul1/DSAlgo/tree/main/04_LinkedList)
+- [x]  [**Object-Oriented Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/05_Object-Oriented-Programming)
+- [x]  [**Binary Trees**](https://github.com/SamirPaul1/DSAlgo/tree/main/06_Binary-Trees)
+- [x]  [**Graph Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/07_Graph)
+- [x]  [**Heap**](https://github.com/SamirPaul1/DSAlgo/tree/main/08_Heap)
+- [x]  [**Matrix**](https://github.com/SamirPaul1/DSAlgo/tree/main/09_Matrix)
+- [x]  [**Trie**](https://github.com/SamirPaul1/DSAlgo/tree/main/10_Trie)
+- [x]  [**Binary Search**](https://github.com/SamirPaul1/DSAlgo/tree/main/11_Binary-Search)
+- [x]  [**Backtracking**](https://github.com/SamirPaul1/DSAlgo/tree/main/12_Backtracking)
+- [x]  [**Stack**](https://github.com/SamirPaul1/DSAlgo/tree/main/13_Stack)
+- [x]  [**Queue**](https://github.com/SamirPaul1/DSAlgo/tree/main/14_Queue)
+- [x]  [**Greedy**](https://github.com/SamirPaul1/DSAlgo/tree/main/15_Greedy)
+- [x]  [**String**](https://github.com/SamirPaul1/DSAlgo/tree/main/16_String)
+- [x]  [**Bit Manipulation**](https://github.com/SamirPaul1/DSAlgo/tree/main/17_Bit-Manipulation)
+- [x]  [**Array**](https://github.com/SamirPaul1/DSAlgo/tree/main/18_Array)
+- [x]  [**HashMap**](https://github.com/SamirPaul1/DSAlgo/tree/main/19_HashMap)
+- [x]  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS)
+- [x]  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers)
+- [x]  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) 
+
+In various folders of the above topics, you can find questions and concepts related to that topic. 
 
 In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 
 
