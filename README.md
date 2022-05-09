@@ -29,10 +29,12 @@ In this repository, I have stored solutions to various problems and concepts of 
 - [x]  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS)
 - [x]  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers)
 - [x]  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) 
+- [x]  [**Recursion**](https://github.com/SamirPaul1/DSAlgo/tree/main/23_Recursion) 
 
 In various folders of the above topics, you can find questions and concepts related to that topic. 
 
-In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 
+- In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 
+- If you are prepareing for interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.
 
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository. 
 
