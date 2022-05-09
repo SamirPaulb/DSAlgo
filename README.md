@@ -43,15 +43,12 @@ In various folders of the above topics, you can find questions and concepts rela
 
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
----
-You can also refer to ↓👇 
-<details>
-    <summary> <b> List of Important Questions recommended by Love Babbar✌️</b></summary>
 
-<b></b>
+---
     
-_The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA).
-I have documented all those questions here._
+    
+### List of Important Questions:✨
+The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA). I have documented all those questions here.✌️
 
 
 | Topic                      | Important DSA Questions                                                                              | Link                                                                |
@@ -523,18 +520,12 @@ I have documented all those questions here._
 | Moore voting algorithm       | Majority Element II                                                                                  | https://www.youtube.com/watch?v=yDbkQd9t2ig                              |
 
 
-</details>
+
+---
+
     
 
-<b> </b>
-    
-
-<details>
-    <summary> <b> 30 Days Interview Preparation Plan🎯 </b></summary>
-    
-<b> </b>
-
-👉  <b> https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice</b>
+### [30 Days Interview Preparation Plan](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
 
 <b> </b> 
    
@@ -951,14 +942,12 @@ Day30:
     related to tech which you have used in your projects. Prepare a note which you can
     say for 3-10 minutes when he asks you that say something about the project.
 
-</details>
     
 
-<b> </b>
-    
+---    
 
-<details>
-    <summary> <b> System Design – Concepts </b></summary>
+
+### System Design – Concepts📚
     
 
 1. https://github.com/SamirPaul1/system-design-primer
@@ -967,5 +956,4 @@ Day30:
 
 3. https://github.com/shashank88/system_design
 
-</details>
 
