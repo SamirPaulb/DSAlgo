@@ -43,6 +43,13 @@ In various folders of the above topics, you can find questions and concepts rela
 
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
+**Things you can contribute to:**
+- Update the existing solution with a better one (better complexity).
+- Add new questions and solutions in ```Python3``` to the respective directory.
+- Add new resources to [BOOKS-and-PDFs](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) & [Questions-Sheet](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet).
+- Solve issues raised by other people or yourself.
+- Provide well-documented source code with detailed explanations.
+
 
 ---
     
