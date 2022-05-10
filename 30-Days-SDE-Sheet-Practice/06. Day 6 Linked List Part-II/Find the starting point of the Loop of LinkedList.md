@@ -5,7 +5,7 @@ Take two pointers, fast and slow. Fast goes two steps ahead while slow pointer d
 Take another pointer, say check. Move the slow and the check pointers ahead by single steps until they collide. Once they collide we get the starting node of the linked list
 
 
-Proof of Why check and slow will colidee at the node where loop started.↓ 👇
+Proof of Why check and slow will collide at the node where loop started.↓ 👇
 <a href="#"><img width="100%" height="50%" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/LinkedList-Cycle-II-find-point-where-loop-started.jpg" /></a>
 
 ```python
