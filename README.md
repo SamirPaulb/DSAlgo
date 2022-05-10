@@ -5,16 +5,57 @@
 
 <a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpeg"></a>
 
-In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.
+In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
 
-In various folders ( [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming),  [**Sorting Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/03_Sorting-Algorithms),  [**LinkedList**](https://github.com/SamirPaul1/DSAlgo/tree/main/04_LinkedList),  [**Object-Oriented Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/05_Object-Oriented-Programming),  [**Binary Trees**](https://github.com/SamirPaul1/DSAlgo/tree/main/06_Binary-Trees),  [**Graph Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/07_Graph),  [**Heap**](https://github.com/SamirPaul1/DSAlgo/tree/main/08_Heap),  [**Matrix**](https://github.com/SamirPaul1/DSAlgo/tree/main/09_Matrix),  [**Trie**](https://github.com/SamirPaul1/DSAlgo/tree/main/10_Trie),  [**Binary Search**](https://github.com/SamirPaul1/DSAlgo/tree/main/11_Binary-Search),  [**Backtracking**](https://github.com/SamirPaul1/DSAlgo/tree/main/12_Backtracking),  [**Stack**](https://github.com/SamirPaul1/DSAlgo/tree/main/13_Stack),  [**Queue**](https://github.com/SamirPaul1/DSAlgo/tree/main/14_Queue),  [**Greedy**](https://github.com/SamirPaul1/DSAlgo/tree/main/15_Greedy),  [**String**](https://github.com/SamirPaul1/DSAlgo/tree/main/16_String),  [**Bit Manipulation**](https://github.com/SamirPaul1/DSAlgo/tree/main/17_Bit-Manipulation),  [**Array**](https://github.com/SamirPaul1/DSAlgo/tree/main/18_Array),  [**HashMap**](https://github.com/SamirPaul1/DSAlgo/tree/main/19_HashMap),  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS),  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers),  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) ) you can find questions and concepts related to that topic. 
+:heavy_check_mark:  <ins>_**Topics Covered**_</ins>:
+- [x]  [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming)
+- [x]  [**Sorting Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/03_Sorting-Algorithms)
+- [x]  [**LinkedList**](https://github.com/SamirPaul1/DSAlgo/tree/main/04_LinkedList)
+- [x]  [**Object-Oriented Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/05_Object-Oriented-Programming)
+- [x]  [**Binary Trees**](https://github.com/SamirPaul1/DSAlgo/tree/main/06_Binary-Trees)
+- [x]  [**Graph Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/07_Graph)
+- [x]  [**Heap**](https://github.com/SamirPaul1/DSAlgo/tree/main/08_Heap)
+- [x]  [**Matrix**](https://github.com/SamirPaul1/DSAlgo/tree/main/09_Matrix)
+- [x]  [**Trie**](https://github.com/SamirPaul1/DSAlgo/tree/main/10_Trie)
+- [x]  [**Binary Search**](https://github.com/SamirPaul1/DSAlgo/tree/main/11_Binary-Search)
+- [x]  [**Backtracking**](https://github.com/SamirPaul1/DSAlgo/tree/main/12_Backtracking)
+- [x]  [**Stack**](https://github.com/SamirPaul1/DSAlgo/tree/main/13_Stack)
+- [x]  [**Queue**](https://github.com/SamirPaul1/DSAlgo/tree/main/14_Queue)
+- [x]  [**Greedy**](https://github.com/SamirPaul1/DSAlgo/tree/main/15_Greedy)
+- [x]  [**String**](https://github.com/SamirPaul1/DSAlgo/tree/main/16_String)
+- [x]  [**Bit Manipulation**](https://github.com/SamirPaul1/DSAlgo/tree/main/17_Bit-Manipulation)
+- [x]  [**Array**](https://github.com/SamirPaul1/DSAlgo/tree/main/18_Array)
+- [x]  [**HashMap**](https://github.com/SamirPaul1/DSAlgo/tree/main/19_HashMap)
+- [x]  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS)
+- [x]  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers)
+- [x]  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) 
+- [x]  [**Recursion**](https://github.com/SamirPaul1/DSAlgo/tree/main/23_Recursion) 
 
-In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 
+In various folders of the above topics, you can find questions and concepts related to that topic. 
 
-I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository. 
+- In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf). 🙌
+
+- If you are preparing for an interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.🎯
+
+- In the  [**Questions-Sheet**](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet) directory, you can find questions asked by top product-based companies.
+
+- There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
+
+I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
+
+**Things you can contribute to:**
+- Update the existing solution with a better one (better complexity).
+- Add new questions and solutions in ```Python3``` to the respective directory.
+- Add new resources to [BOOKS-and-PDFs](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) & [Questions-Sheet](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet).
+- Solve issues raised by other people or yourself.
+- Provide well-documented source code with detailed explanations.
+
 
 ---
-You can also refer to the following list of important questions recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) and [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) to ace your coding interview.
+    
+    
+### List of Important Questions:✨
+The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA). I have documented all those questions here.✌️
 
 
 | Topic                      | Important DSA Questions                                                                              | Link                                                                |
@@ -486,32 +527,38 @@ You can also refer to the following list of important questions recommended by [
 | Moore voting algorithm       | Majority Element II                                                                                  | https://www.youtube.com/watch?v=yDbkQd9t2ig                              |
 
 
+
 ---
 
+    
 
-# 30 Days Interview Preparation Plan
+### [30 Days Interview Preparation Plan](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
 
+<b></b>
+Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
 
+<b> </b> 
+   
 Day1: (Arrays)
 
 
-1. [Sort an array of 0’s 1’s 2’s without using extra space or sorting algo](https://leetcode.com/problems/sort-colors/)
+1. Sort an array of 0’s 1’s 2’s without using extra space or sorting algo
 
-2. [Repeat and Missing Number](https://leetcode.com/problems/missing-number/)
+2. Repeat and Missing Number
 
-3. [Merge two sorted Arrays without extra space](https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/)
+3. Merge two sorted Arrays without extra space
 
-4. [Kadane’s Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)
+4. Kadane’s Algorithm
 
-5. [Merge Overlapping Subintervals](https://leetcode.com/problems/merge-intervals/)
+5. Merge Overlapping Subintervals
 
-6. [Find the duplicate in an array of N+1 integers.](https://leetcode.com/problems/find-the-duplicate-number/)
+6. Find the duplicate in an array of N+1 integers.
 
 
 
 Day2: (Arrays)
 
-1. [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/)
+1. Set Matrix Zeros
 
 2. Pascal Triangle
 
@@ -519,11 +566,10 @@ Day2: (Arrays)
 3. Next Permutation
 
 
-
-4.Inversion of Array (Using Merge Sort)
+4. Inversion of Array (Using Merge Sort)
 
     
-5.Stock Buy and Sell
+5. Stock Buy and Sell
 
     
 6. Ro tate Matrix
@@ -561,13 +607,13 @@ Day4: (Hashing)
 
 
 
-3. Longest Consecutive Sequence**
+3. Longest Consecutive Sequence
 
     
 4. Largest Subarray with 0 sum
 
     
-5. Count number of subarrays with given XOR** (this clearsa lot of problems)
+5. Count number of subarrays with given XOR (this clearsa lot of problems)
 
     
 6. Longest substring without repeat
@@ -906,11 +952,13 @@ Day30:
     related to tech which you have used in your projects. Prepare a note which you can
     say for 3-10 minutes when he asks you that say something about the project.
 
+    
 
----
+---    
 
 
-### System Design Interview Questions – Concepts You Should Know
+### System Design – Concepts📚
+    
 
 1. https://github.com/SamirPaul1/system-design-primer
 
@@ -918,5 +966,4 @@ Day30:
 
 3. https://github.com/shashank88/system_design
 
----
 
