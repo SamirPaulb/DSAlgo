@@ -1,4 +1,9 @@
 # https://leetcode.com/problems/n-queens-ii/
+''' 
+queen attack horizontally, vertically, is both positive diagonal and negetive diagonal.
+we travers row-wise and keep a track of the above parameters in a set and make sure no 2 queens 
+comes in each other direction.
+'''
 
 class Solution:
     def totalNQueens(self, n: int) -> int:
@@ -31,3 +36,6 @@ class Solution:
         
         backtrack(0)
         return self.res
+
+# Time Complexity: O( N^2 )
+# Space Complexity: O( N^2 )

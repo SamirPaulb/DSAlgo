@@ -52,7 +52,7 @@ class Solution:
 
 
         
-# ---------------------------Method-2 --------------------------------------------
+
 
 class Solution:
     def solveSudoku(self, board):
