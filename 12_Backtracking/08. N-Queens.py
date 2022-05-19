@@ -1,5 +1,9 @@
 # https://leetcode.com/problems/n-queens
-
+''' 
+queen attack horizontally, vertically, is both positive diagonal and negetive diagonal.
+we travers row-wise and keep a track of the above parameters in a set and make sure no 2 queens 
+comes in each other direction.
+'''
 # DFS  => taking variables as global variables
 # https://www.youtube.com/watch?v=Ph95IHmRp5M
 
@@ -35,3 +39,6 @@ class Solution:
         
         backtrack(0)
         return res
+
+# Time Complexity: O( N^2 )
+# Space Complexity: O( N^2 )
