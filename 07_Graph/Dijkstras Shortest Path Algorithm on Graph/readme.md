@@ -1,10 +1,10 @@
-## Graph - Dijkstra’s Shortest Path Algorithm
+# Graph - Dijkstra Algorithm - Single Source Shortest Path
 
-https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1/
+**Questions in Dijkstra's Algorithm**:
 
-https://leetcode.com/problems/the-maze-ii
+https://leetcode.com/problems/the-maze-ii    (Premium)
 
-https://leetcode.com/problems/the-maze-iii
+https://leetcode.com/problems/the-maze-iii   (Premium)
 
 https://leetcode.com/problems/redundant-connection
 
