@@ -53,3 +53,11 @@ class Trie:
         cur.endOfWordCount -= 1
         
         
+    # It will also work if we don't delete the node only decrease the counts
+    def erase(self, word):  # Dele te function
+        cur = self.root
+        for c in word:  # as it a delete function so word is present in trie so we don't need to check if key 'c' present in children hashmap or not. 
+            cur = cur.children[c]
+            cur.prefixOfWordCount -= 1
+                
+        cur.endOfWordCount -= 1
