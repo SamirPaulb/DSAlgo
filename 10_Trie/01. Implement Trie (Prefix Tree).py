@@ -1,3 +1,5 @@
+# BASICS of TRIES: https://youtu.be/AXjmTQ8LEoI
+
 # https://leetcode.com/problems/implement-trie-prefix-tree/
 # https://youtu.be/oobqoCJlHA0
 
