@@ -24,15 +24,17 @@ class Solution:
     
     
 # BFS
+import collections
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         row = len(grid); col = len(grid[0])
         res = 0
         
         def bfs(i, j):
-            q = [(i, j)]
+            q = collections.deque()
+            q.append((i, j))
             while q:
-                r, c = q.pop()
+                r, c = q.popleft()
                 if ( not 0 <= r < row) or (not 0 <= c < col) or (grid[r][c] == '0'): continue
                 grid[r][c] = '0'
                 q.append((r-1, c))
