@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/min-cost-to-connect-all-points/
 # https://youtu.be/f7JOBJIC-NA
+# Minimum Spanning Tree (MST)
 
 import heapq
 class Solution:
