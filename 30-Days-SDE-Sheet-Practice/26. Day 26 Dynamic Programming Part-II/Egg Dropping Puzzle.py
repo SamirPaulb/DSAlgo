@@ -1,3 +1,30 @@
+# https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1#
+
+class Solution:
+    def eggDrop(self,n, k):
+        E = n  # number of eggs
+        F = k  # number of floors
+        memo = {}
+        
+        def solve(E, F):
+            if E == 1: return F
+            if F == 0 or F == 1: return F
+            if (E,F) in memo: return memo[(E,F)]
+            
+            ans = 2**31
+            for f in range(1, F):
+                tmp = 1 + max(solve(E-1, f-1), solve(E, F-f))
+                ans = min(ans, tmp)
+            memo[(E,F)] = ans
+            return memo[(E,F)]
+        
+        return solve(E, F)
+        
+
+
+
+
+
 # https://www.youtube.com/watch?v=gr2NtY-2QUY&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=44
 # https://leetcode.com/problems/super-egg-drop
 '''
@@ -13,7 +40,7 @@ class Solution:
     def superEggDrop(self, e, f): # e = total eggs; f = total floors
         dp = [[-1]*(10**4 + 1) for i in range(100 + 1)]
         def solve(e, f):
-            if f == 0 or f == 1:  # if no. of floor 0 or 1 return 0 or 1
+            if f == 0 or f == 1:  # if no. of floor 0 , 1 return n:
                 return f
             if e == 1: return f   # if 1 egg return number of floor  
             if dp[e][f] != -1:    # previously we calculated solve(e, f) that is stored in dp[e][f]
@@ -38,27 +65,4 @@ Time Complexity: O((n^2) * k)
 Space Complexity: O(k * n)
 '''
 # this Memoization-Recursive solution: TLE on LeetCode but Accepted on GeeksforGeeks!
-        
-
-# https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1#
-
-class Solution:
-    def eggDrop(self,n, k):
-        E = n  # number of eggs
-        F = k  # number of floors
-        memo = {}
-        
-        def solve(E, F):
-            if E == 1: return F
-            if F == 0 or F == 1: return F
-            if (E,F) in memo: return memo[(E,F)]
-            
-            ans = 2**31
-            for f in range(1, F):
-                tmp = 1 + max(solve(E-1, f-1), solve(E, F-f))
-                ans = min(ans, tmp)
-            memo[(E,F)] = ans
-            return memo[(E,F)]
-        
-        return solve(E, F)
-    
+   
