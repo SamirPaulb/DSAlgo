@@ -22,25 +22,17 @@ class Solution:
 # Space Complexity = O(m * n)
 
 
-''' 
-# BEST OPTIMAL SOLUTION
 
+# BEST OPTIMAL SOLUTION👇
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        sl = list(s)
-        tl = list(t)
-        i = 0
-        while i < len(sl):
-            if i == len(tl):
-                return False
-            if sl[i] == tl[i]:
+        i = j = 0
+        while i < len(s) and j < len(t):
+            if s[i] == t[j]:
                 i += 1
-            else:
-                tl.pop(i)
-       
-        return sl[:] ==  tl[:len(sl)]                 
+            j += 1
+        
+        return i == len(s)                
 
-# Time Complexity = O(m)
+# Time Complexity = O(n)  # where n = len(t)
 # Space Complexity = O(1)
-
-'''
