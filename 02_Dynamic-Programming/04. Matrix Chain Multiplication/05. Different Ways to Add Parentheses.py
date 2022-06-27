@@ -2,31 +2,25 @@
 
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
-        memo = {}
         
-        def solve(expr):
-            res = []
-            if expr.isdigit():
-                return [int(expr)]
-            if expr in memo:
-                return memo[expr]
+        def clac(a, b, operator):
+            if operator == "+": return a + b
+            if operator == "-": return a - b
+            if operator == "*": return a * b
             
+        memo = {}        
+        def solve(expr):
+            if expr.isdigit(): return [int(expr)]
+            if expr in memo: return memo[expr]
+            res = []
             for i in range(len(expr)):
                 if expr[i] in "+-*":
-                    res1 = solve(expr[:i])
-                    res2 = solve(expr[i+1:])
-                    for j in res1:
-                        for k in res2:
-                            res.append(clac(j, k, expr[i]))
-            return res
-        
-        def clac(j, k, operator):
-            if operator == "+":
-                return j + k
-            if operator == "-":
-                return j - k
-            if operator == "*":
-                return j * k
-            return -1
+                    left = solve(expr[:i])
+                    right = solve(expr[i+1:])
+                    for a in left:
+                        for b in right:
+                            res.append(clac(a, b, expr[i]))
+            memo[expr] = res
+            return memo[expr]
         
         return solve(expression)
