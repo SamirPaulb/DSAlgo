@@ -1,6 +1,25 @@
 # https://practice.geeksforgeeks.org/problems/gold-mine-problem2608/1/#
 
-# Traversing from bottom-right most to top-left most corner; same as Method-1 of 02. Maximum path sum in matrix.py
+# Method 1: Traversing from top-left to bottom-right corner # Column wise
+class Solution:
+    def maxGold(self, n, m, M):
+        def get(i, j):
+            if not 0<=i<n or not 0<=j<m: return 0
+            return M[i][j]
+        
+        res = 0
+        for j in range(m):
+            for i in range(n):
+                if j == 0:
+                    res = max(res, M[i][j])
+                else:
+                    M[i][j] += max(get(i, j-1), get(i-1, j-1), get(i+1, j-1))
+                    res = max(res, M[i][j])
+                    
+        return res
+    
+    
+#Method 2: Traversing from bottom-right most to top-left most corner; same as Method-1 of 02. Maximum path sum in matrix.py
 '''
 Available Moves from (i, j) for Maximum Profit:
 1. diagonally up towards the right => (i-1, j+1)
