@@ -76,7 +76,7 @@ class Solution:
 # Space Complexity: O(n*k)
 
 
-# -------------------------------  running Kadane's algo K times => OPTIMAL All TestCases Passed -----------------
+# -------------------------------  running Kadane's algo K times => Most OPTIMAL All TestCases Passed -----------------
 
 class Solution(object):
     def maxProfit(self, k, prices):
