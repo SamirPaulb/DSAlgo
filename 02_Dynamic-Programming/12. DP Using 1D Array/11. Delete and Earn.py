@@ -2,21 +2,27 @@
 
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
-        if not nums: return 0
+        # This question is SAME as House Robber 1
+        # just we need to make an array with total sum of that number
         
-        arr = [0]*(max(nums)+1)
+        # nums = [2,2,3,3,3,4]
         
-        for i in nums:
-            arr[i] += i
+        arr = [0] * (max(nums)+1)
+        for num in nums:
+            arr[num] += num
+        # arr = [0, 0, 4, 9, 4]
         
-        dp = [0]*(len(arr))
+        # now apply house robber 1 on this problem
         
-        for i in range(len(arr)):
-            if i == 0:
-                dp[i] =  0
-            elif i == 1:
-                dp[i] = max(arr[i], dp[i-1])
-            else:
-                dp[i] = max(arr[i] + dp[i-2], dp[i-1])
+        n = len(arr)
+        if n < 3: return max(arr)
         
-        return dp[-1]
+        for i in range(3, n):
+            if i - 3 >= 0: arr[i] += max(arr[i-2], arr[i-3])
+            else: arr[i] += arr[i-2]
+                
+        return max(arr[-1], arr[-2])
+    
+    
+# Time: O(max(nums))
+# Space: O(max(nums))
