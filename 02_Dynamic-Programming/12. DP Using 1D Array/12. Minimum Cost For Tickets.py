@@ -14,7 +14,6 @@ class Solution:
                     dp[i] = min(dp[i-1] + costs[0], dp[i-7] + costs[1], costs[2])
                 else:
                     dp[i] = min(dp[i-1] + costs[0], costs[1], costs[2])
-                               
             else:
                 dp[i] = dp[i-1]
         
