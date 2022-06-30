@@ -22,7 +22,7 @@ print(f"arr1 = {arr1}")   # [[5, 2], [3, 4]]
 print(f"arr2 = {arr1}")   # [[5, 2], [3, 4]]
 ```
 
-> ***So to copy a 2D array we need to traverse the matrix and create new memory location for new array*** 
+> ***So to copy a 2D Array or Matrix we need to traverse the matrix and create new memory location for new Matrix*** 
  e.g. 
 ```python
 arr1 = [[1, 2], [3, 4]]
