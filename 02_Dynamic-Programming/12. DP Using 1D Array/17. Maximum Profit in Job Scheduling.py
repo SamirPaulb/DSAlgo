@@ -16,7 +16,7 @@ class Solution(object):
             # find rightMost idx to insert this start time
             # idx is where this new start needs to be inserted
             # idx - 1 is the one that doesn't overlap
-            idx = self.bSearch(dpEndTime, start)
+            idx = self.bSearch(dpEndTime, start)  # or idx = bisect.bisect_right(dpEndTime, start)
             lastProfit = dpProfit[-1]
             currProfit = dpProfit[idx-1] + profit # they don't overlap
             
