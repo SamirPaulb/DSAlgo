@@ -1,9 +1,17 @@
-a = [1,4,45,66,8,89,54,0,5,6,75,675,7,56]
+# Selection Sort Algorithm
 
-for i in range(len(a)-1):
-    m = min(a[i+1:])
-    mi = a.index(m)
-    if m < a[i]:
-        a[i], a[mi] = a[mi], a[i]
+arr = [10, 16, 8, 12, 15, 3, 9, 5]
 
-print(a)
+for i in range(len(arr)):
+    mi = i   # index of minimum element in arr[i:]
+    for j in range(i+1, len(arr)):
+        if arr[mi] > arr[j]:
+            mi = j
+    # Swap the found minimum element with the first element   
+    arr[i], arr[mi] = arr[mi], arr[i]
+
+print(arr)
+
+# Time: O(N^2)
+# Space: O(1)
+
