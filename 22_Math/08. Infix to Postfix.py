@@ -1,4 +1,8 @@
 # https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1#
+'''
+Input: str = "a+b*(c^d-e)^(f+g*h)-i"
+Output: abcd^e-fgh*+^*+i-
+'''
 
 class Solution:
     def InfixtoPostfix(self, exp):
@@ -25,5 +29,4 @@ class Solution:
             res += stack.pop()
             
         return res
-        
-        
+    
