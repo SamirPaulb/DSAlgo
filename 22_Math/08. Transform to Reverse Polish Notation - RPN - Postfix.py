@@ -1,4 +1,16 @@
 # https://www.spoj.com/problems/ONP/
+'''
+Input:
+3
+(a+(b*c))
+((a+b)*(z+x))
+((a+t)*((b+(a+c))^(c+d)))
+
+Output:
+abc*+
+ab+zx+*
+at+bac++cd+^*
+'''
 
 n = int(input(""))  # number of input string
 for i in range(n):
@@ -20,17 +32,3 @@ for i in range(n):
             stack.append(i)
     print("".join(stack))
     
-
-    
-'''
-Input:
-3
-(a+(b*c))
-((a+b)*(z+x))
-((a+t)*((b+(a+c))^(c+d)))
-
-Output:
-abc*+
-ab+zx+*
-at+bac++cd+^*
-'''
