@@ -17,5 +17,9 @@ class Solution:
         return res
 
     
-# Time: O(N^2)    # as for each element we are making (n-1) traversal again
-# Space: O(N)     # as we are creating n-1 subarrays
+''' 
+# Time: O(N*N!)
+# Space: O(N!)
+
+Explanation: https://leetcode.com/problems/permutations/discuss/993970/Python-4-Approaches-%3A-Visuals-%2B-Time-Complexity-Analysis
+'''
