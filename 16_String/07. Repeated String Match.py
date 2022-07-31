@@ -1,54 +1,49 @@
 # https://leetcode.com/problems/repeated-string-match/
-''' 
-Python3 program to find minimum number of times 'A' has to be repeated such that 'B' is a 
-substring of it Method to find Minimum number of times 'A' has to be repeated such that 'B' is a substring of it
-'''
 
-'''
+# Method 1 ---------------------------------------  
 class Solution:
     def repeatedStringMatch(self, a: str, b: str) -> int:
-        times = ceil(len(b) / len(a))
-        
-        for i in range(2):
-            if b in a * (times + i):
-                return times + i
-        
+        res = 1
+        tmp = a
+        while len(a) < len(b):
+            a += tmp
+            res += 1
+        if self.subStr(a, b):
+            return res
+        if self.subStr(a+tmp, b):
+            return res + 1
         return -1
-'''
+    
+    
+    def subStr(self, a, b):  # check if b is substring of a 
+        for i in range(len(a)):
+            if a[i] == b[0] and i+len(b) <= len(a) and a[i:i+len(b)] == b:
+                return True
+        return False
+
+# Time: O(n)    # n = len(a)
+# Space: O(n)   
+    
+    
+# Method 2 ---------------------------------------  
 
 class Solution:
     def repeatedStringMatch(self, a: str, b: str) -> int:
-        len_a = len(a)
-        len_b = len(b)
-
-        for i in range(0, len_a):
-
-            if a[i] == b[0]:
-                k = i
-                count = 1
-                for j in range(0, len_b):
-
-                    # we are reiterating over A again and
-                    # again for each value of B
-                    # Resetting A pointer back to 0 as B
-                    # is not empty yet
-                    if k >= len_a:   # or can use k = (k + 1) % m
-                        k = 0
-                        count = count + 1
-
-                    # Resetting A means count
-                    # needs to be increased
-                    if a[k] != b[j]:
-                        break
-                    k = k + 1
-
-                # k is iterating over A
-                else:
-                    return count
-                
+        n = len(b) // len(a)
+        if self.subStr(a*n, b): return n
+        if self.subStr(a*(n+1), b): return n+1
+        if self.subStr(a*(n+2), b): return n+2    
         return -1
-
-'''
-Time Complexity: O(N * M) 
-Auxiliary Space: O(1). 
-'''
+    
+    ''' 
+    def subStr(self, a, b):
+        return b in a
+    '''
+    def subStr(self, a, b):  # check if b is substring of a or not
+        for i in range(len(a)):
+            if a[i] == b[0] and i+len(b) <= len(a) and a[i:i+len(b)] == b:
+                return True
+        return False
+    
+# Time: O(n)    # n = len(a)
+# Space: O(n)   
