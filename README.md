@@ -6,7 +6,7 @@
 <a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpeg"></a>
 
 <div align="center">
-<b>View this repository with improved user experience at https://samirpaul1.github.io/DSAlgo</b>
+<b>View this repository with improved user experience▶️https://samirpaul1.github.io/DSAlgo</b>
 </div>
 
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
