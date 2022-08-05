@@ -2,6 +2,32 @@
 
 class Solution:
     def maxWidthRamp(self, nums: List[int]) -> int:
+        # nums = [9,8,1,0,1,9,4,0,4,1]
+        # arr = [0, 1, 2, 3]
+        arr = []  # array in indeices Sorted in decreasing order of elements
+        for i, ch in enumerate(nums):
+            if not arr or nums[arr[-1]] > nums[i]:
+                arr.append(i)
+        
+        res = 0
+        i = len(nums)-1
+        while arr and i > 0:
+            if arr and nums[arr[-1]] <= nums[i]:
+                res = max(res, i - arr.pop())
+            else:
+                i -= 1
+        
+        return res  # 7
+    
+    
+# Time: O(n)
+# Space: O(n)
+
+
+
+
+class Solution:
+    def maxWidthRamp(self, nums: List[int]) -> int:
         '''
         # Brute Force   # Time: O(N^2)
         res = 0
