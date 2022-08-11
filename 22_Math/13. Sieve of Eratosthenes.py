@@ -9,6 +9,14 @@ Output : 2 3 5 7
 Input : n = 20 
 Output: 2 3 5 7 11 13 17 19
 '''
+'''
+n = 50
+We create a list of all numbers from 2 to 50.  
+According to the algorithm we will mark all the numbers which are divisible by 2 and are greater than or equal to the square of it. 
+Now we move to our next unmarked number 3 and mark all the numbers which are multiples of 3 and are greater than or equal to the square of it.  
+We move to our next unmarked number 5 and mark all multiples of 5 and are greater than or equal to the square of it.  
+We continue this process
+'''
 
 def SieveOfEratosthenes(n):
 	# Create a boolean array
