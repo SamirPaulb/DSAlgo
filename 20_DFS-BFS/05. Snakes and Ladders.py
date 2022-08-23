@@ -4,6 +4,8 @@ class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
         n = len(board)
         def label_to_position(label):
+            # r = (lebel - 1) // n
+            # c = (lebel - 1) % n
             r, c = divmod(label-1, n)
             if r % 2 == 0:
                 return n-1-r, c
