@@ -1,6 +1,43 @@
 # https://leetcode.com/problems/median-of-two-sorted-arrays/
-# https://www.youtube.com/watch?v=NTop3VTjmxk
 
+# -------------------- Method 1 --------- NOT Optimised O(N) Time----------------
+class Solution:
+    def findMedianSortedArrays(self, nums1, nums2):
+        n1 = len(nums1); n2 = len(nums2)
+        mid = (n1 + n2) // 2  
+        i = 0; j = 0
+        val, preVal = 0, 0
+        
+        for k in range(mid+1):
+            if i < n1 and j < n2:
+                if nums1[i] <= nums2[j]:
+                    val = nums1[i]  
+                    i += 1
+                else:
+                    val = nums2[j]
+                    j += 1
+            elif i < n1:
+                val = nums1[i]
+                i += 1
+            else:
+                val = nums2[j]
+                j += 1
+            
+            if k == mid - 1:
+                preVal = val
+        
+        if (n1+n2) % 2 == 0:
+            return (val + preVal) / 2
+        return float(val)
+    
+# Timw: O(N)
+# Space: O(1)
+
+
+
+# -------------------- Method 2 --------- Optimised O(log(N)) Time----------------
+
+# https://www.youtube.com/watch?v=NTop3VTjmxk
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
         n1 = len(nums1);   n2 = len(nums2) 
@@ -39,10 +76,8 @@ class Solution:
         
         return 0.0  # For both empty arrays
     
-
-    
 '''
-Time Complexity: O(min(n1, n2))  
+Time Complexity: O(log(n1))  
 Space Complexity: O(1)
 '''
 
