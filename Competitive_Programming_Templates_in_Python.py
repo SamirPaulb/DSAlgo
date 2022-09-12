@@ -32,22 +32,36 @@ import functools
 import itertools
 import statistics
 import collections
-from collections import deque
-from collections import Counter
 from sys import stdin, stdout  
 from io import BytesIO, IOBase
+from math import gcd,floor,sqrt,log
+from bisect import bisect_left,bisect_right
+from collections import deque, Counter, defaultdict
 
 
-sys.stdout = open('output.txt', 'w')
-sys.stdin = open('input.txt', 'r')
-
+inp    =lambda: int(input())
+strng  =lambda: input().strip()
+jn     =lambda x,l: x.join(map(str,l))
+strl   =lambda: list(input().strip())
+mul    =lambda: map(int,input().strip().split())
+mulf   =lambda: map(float,input().strip().split())
+seq    =lambda: list(map(int,input().strip().split()))
+ceil   =lambda x: int(x) if(x==int(x)) else int(x)+1
+ceildiv=lambda x,d: x//d if(x%d==0) else x//d+1
+flush  =lambda: stdout.flush()
+stdstr =lambda: stdin.readline()
+stdint =lambda: int(stdin.readline())
+stdpr  =lambda x: stdout.write(str(x))
+MOD = 1000000007
+sys.stdout = open('output.txt', 'w') # Write to output.txt
+sys.stdin = open('input.txt', 'r') # Read from input.txt
+sys.setrecursionlimit(100000000)
 if sys.version_info[0] < 3:
     from __builtin__ import xrange as range
     from future_builtins import ascii, filter, hex, map, oct, zip
 
 # region fastio
 BUFSIZE = 8192
-MOD = 1000000007
 
 class FastIO(IOBase):
     newlines = 0
