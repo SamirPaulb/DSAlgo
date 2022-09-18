@@ -54,11 +54,6 @@ stdint =lambda: int(stdin.readline())
 stdpr  =lambda x: stdout.write(str(x))
 MOD = 1000000007
 
-# ---------------- I/O file handling ----------------------
-sys.stdout = open('output.txt', 'w') # Write to output.txt
-sys.stdin = open('input.txt', 'r') # Read from input.txt
-# ---------------------------------------------------------
-
 sys.setrecursionlimit(100000000)
 if sys.version_info[0] < 3:
     from __builtin__ import xrange as range
@@ -144,10 +139,11 @@ input = lambda: sys.stdin.readline().rstrip("\r\n")
 
 
 
+# ---------------- I/O file handling ----------------------
+# sys.stdout = open('output.txt', 'w') # Write to output.txt
+# sys.stdin = open('input.txt', 'r') # Read from input.txt
 
-
-# -------------------- Code From Here -----------------------
-
+# -------------------- Code From Here ---------------------
 class Solution:
     def main():
 
