@@ -38,7 +38,6 @@ from math import gcd, floor, sqrt, log, factorial
 from bisect import bisect_left, bisect_right
 from collections import deque, Counter, defaultdict, OrderedDict, namedtuple, UserDict, UserList, UserString
 
-
 inp    =lambda: int(input())
 strng  =lambda: input().strip()
 jn     =lambda x,l: x.join(map(str,l))
@@ -95,7 +94,6 @@ class FastIO(IOBase):
             os.write(self._fd, self.buffer.getvalue())
             self.buffer.truncate(0), self.buffer.seek(0)
 
-
 class IOWrapper(IOBase):
     def __init__(self, file):
         self.buffer = FastIO(file)
@@ -104,7 +102,6 @@ class IOWrapper(IOBase):
         self.write = lambda s: self.buffer.write(s.encode("ascii"))
         self.read = lambda: self.buffer.read().decode("ascii")
         self.readline = lambda: self.buffer.readline().decode("ascii")
-
 
 def print(*args, **kwargs):
     """Prints the values to a stream, or to sys.stdout by default."""
@@ -119,14 +116,11 @@ def print(*args, **kwargs):
     if kwargs.pop("flush", False):
         file.flush()
 
-if sys.version_info[0] < 3:
-    sys.stdin, sys.stdout = FastIO(sys.stdin), FastIO(sys.stdout)
-else:
-    sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
+if sys.version_info[0] < 3: sys.stdin, sys.stdout = FastIO(sys.stdin), FastIO(sys.stdout)
+else: sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 
 input = lambda: sys.stdin.readline().rstrip("\r\n")
 
-# endregion
 
 
 
