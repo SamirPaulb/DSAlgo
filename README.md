@@ -3,7 +3,7 @@
 <b><i>If you appreciate my work, please</i></b> 🌟 <b><i>this repository. It motivates me. 🚀🚀</i></b>
 </div>
 
-<a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpeg"></a>
+<a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpg"></a>
 
 <div align="center">
 <b>View this repository with improved user experience▶️https://samirpaul1.github.io/DSAlgo</b>🚀
