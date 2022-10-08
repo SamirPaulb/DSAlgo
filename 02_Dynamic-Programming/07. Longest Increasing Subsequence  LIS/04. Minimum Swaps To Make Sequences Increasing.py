@@ -23,3 +23,7 @@ class Solution:
             return ans
         
         return solve(-1, -1, 0, 0)  # as elements of nums are positive so -1 is prev
+
+    
+# Time: O(N)
+# Space: O(N)
