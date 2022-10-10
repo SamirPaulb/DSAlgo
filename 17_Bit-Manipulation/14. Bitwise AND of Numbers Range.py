@@ -30,6 +30,6 @@ class Solution:
         
         return left << count
                 
-        
+         
 # Time: O(1)
 # Space: O(1)
