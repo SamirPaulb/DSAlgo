@@ -1,14 +1,16 @@
+# https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
+
 #Tower of Hanoi
-def tower_of_hanoi(disks, source, auxiliary, target):  
-    if(disks == 1):  
-        print('Move disk 1 from rod {} to rod {}.'.format(source, target))  
-        return  
-    # function call itself  
-    tower_of_hanoi(disks - 1, source, target, auxiliary)  
-    print('Move disk {} from rod {} to rod {}.'.format(disks, source, target))  
-    tower_of_hanoi(disks - 1, auxiliary, source, target)  
-  
-  
-disks = int(input('Enter the number of disks: '))  
-# We are referring source as A, auxiliary as B, and target as C  
-tower_of_hanoi(disks, 'A', 'B', 'C')
+class Solution:
+    def toh(self, N, fromm, to, aux):
+        if(N == 1):
+            print("move disk " + str(N) + " from rod " + str(fromm) + " to rod " + str(to))
+            return 1
+        # recursive call to move top disk from "from" to aux in current call
+        moves = 0
+        moves += self.toh(N - 1, fromm, aux, to)
+        moves += 1 # increment moves
+        print("move disk " + str(N) + " from rod " + str(fromm) + " to rod " + str(to))
+        #recursive call to move top disk from aux to "to" in current call
+        moves += self.toh(N - 1, aux, to, fromm)
+        return moves
