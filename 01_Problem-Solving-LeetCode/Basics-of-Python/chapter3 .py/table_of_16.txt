@@ -1,0 +1,11 @@
+The Multiplication Table of 16 is Written below:
+16 X 1 = 16
+16 X 2 = 32
+16 X 3 = 48
+16 X 4 = 64
+16 X 5 = 80
+16 X 6 = 96
+16 X 7 = 112
+16 X 8 = 128
+16 X 9 = 144
+16 X 10 = 160

@@ -1,0 +1,11 @@
+a  = "225"
+a  = int(a)
+print(type(a))
+
+b = 83
+b = str(b)
+print(type(b))
+
+c = 34
+c = float(c)
+print(type(c))

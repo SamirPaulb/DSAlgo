@@ -1,0 +1,10 @@
+a = 1
+b = 23
+print(a/b)
+print(a*b)
+print(a-b)
+print(a+b)
+print(a**b)
+print("%0.4f"%(a/b))
+print(a//b)
+print(a%b)

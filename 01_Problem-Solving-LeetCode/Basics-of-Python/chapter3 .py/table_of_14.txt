@@ -1,0 +1,11 @@
+The Multiplication Table of 14 is Written below:
+14 X 1 = 14
+14 X 2 = 28
+14 X 3 = 42
+14 X 4 = 56
+14 X 5 = 70
+14 X 6 = 84
+14 X 7 = 98
+14 X 8 = 112
+14 X 9 = 126
+14 X 10 = 140

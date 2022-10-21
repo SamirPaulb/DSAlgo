@@ -1,0 +1,11 @@
+The Multiplication Table of 20 is Written below:
+20 X 1 = 20
+20 X 2 = 40
+20 X 3 = 60
+20 X 4 = 80
+20 X 5 = 100
+20 X 6 = 120
+20 X 7 = 140
+20 X 8 = 160
+20 X 9 = 180
+20 X 10 = 200
