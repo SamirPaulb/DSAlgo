@@ -1,0 +1,10 @@
+'''
+if (condition1):
+    #code
+elif (condition 2):
+    #code
+elif (condition 2):
+    #code
+….
+else:
+    #code    '''
