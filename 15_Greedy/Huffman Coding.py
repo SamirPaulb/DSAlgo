@@ -1,53 +1,82 @@
-from collections import Counter
+# https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+# https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1
 
 
-class NodeTree(object):
-    def __init__(self, left=None, right=None):
-        self.left = left
-        self.right = right
+# A Huffman Tree Node
+import heapq
 
-    def children(self):
-        return self.left, self.right
+class node:
+	def __init__(self, freq, symbol, left=None, right=None):
+		# frequency of symbol
+		self.freq = freq
 
-    def __str__(self):
-        return self.left, self.right
+		# symbol name (character)
+		self.symbol = symbol
+
+		# node left of current node
+		self.left = left
+
+		# node right of current node
+		self.right = right
+
+		# tree direction (0/1)
+		self.huff = ''
+		
+	def __lt__(self, nxt):
+		return self.freq < nxt.freq
+		
+
+# utility function to print huffman
+# codes for all symbols in the newly
+# created Huffman tree
+def printNodes(node, val=''):
+	
+	# huffman code for current node
+	newVal = val + str(node.huff)
+
+	# if node is not an edge node
+	# then traverse inside it
+	if(node.left):
+		printNodes(node.left, newVal)
+	if(node.right):
+		printNodes(node.right, newVal)
+
+		# if node is edge node then
+		# display its huffman code
+	if(not node.left and not node.right):
+		print(f"{node.symbol} -> {newVal}")
 
 
-def huffman_code_tree(node, binString=''):
-    '''
-    Function to find Huffman Code
-    '''
-    if type(node) is str:
-        return {node: binString}
-    (l, r) = node.children()
-    d = dict()
-    d.update(huffman_code_tree(l, binString + '0'))
-    d.update(huffman_code_tree(r, binString + '1'))
-    return d
+# characters for huffman tree
+chars = ['a', 'b', 'c', 'd', 'e', 'f']
 
+# frequency of characters
+freq = [ 5, 9, 12, 13, 16, 45]
 
-def make_tree(nodes):
-    '''
-    Function to make tree
-    :param nodes: Nodes
-    :return: Root of the tree
-    '''
-    while len(nodes) > 1:
-        (key1, c1) = nodes[-1]
-        (key2, c2) = nodes[-2]
-        nodes = nodes[:-2]
-        node = NodeTree(key1, key2)
-        nodes.append((node, c1 + c2))
-        nodes = sorted(nodes, key=lambda x: x[1], reverse=True)
-    return nodes[0][0]
+# list containing unused nodes
+nodes = []
 
+# converting characters and frequencies
+# into huffman tree nodes
+for x in range(len(chars)):
+	heapq.heappush(nodes, node(freq[x], chars[x]))
 
-if __name__ == '__main__':
-    string = 'BCAADDDCCACACAC'
-    freq = dict(Counter(string))
-    freq = sorted(freq.items(), key=lambda x: x[1], reverse=True)
-    node = make_tree(freq)
-    encoding = huffman_code_tree(node)
-    for i in encoding:
-        print(f'{i} : {encoding[i]}')
- 
+while len(nodes) > 1:
+	
+	# sort all the nodes in ascending order
+	# based on their frequency
+	left = heapq.heappop(nodes)
+	right = heapq.heappop(nodes)
+
+	# assign directional value to these nodes
+	left.huff = 0
+	right.huff = 1
+
+	# combine the 2 smallest nodes to create
+	# new node as their parent
+	newNode = node(left.freq+right.freq, left.symbol+right.symbol, left, right)
+
+	heapq.heappush(nodes, newNode)
+
+# Huffman Tree is ready!
+printNodes(nodes[0])
