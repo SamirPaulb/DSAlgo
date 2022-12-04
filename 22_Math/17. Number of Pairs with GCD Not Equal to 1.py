@@ -35,7 +35,7 @@ dp = [0] * (maxElem + 1)
 
 for i in range(maxElem, 1, -1):
     cntA = cntB = subtract = 0
-    for j in range(i, maxElem + 1):
+    for j in range(i, maxElem+1, i):
         cntA += freqA[j]
         cntB += freqB[j]
         subtract += dp[j]
