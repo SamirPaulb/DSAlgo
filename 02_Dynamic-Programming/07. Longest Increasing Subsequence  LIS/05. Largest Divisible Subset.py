@@ -1,4 +1,4 @@
-https://leetcode.com/problems/largest-divisible-subset/description/
+# https://leetcode.com/problems/largest-divisible-subset
   
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
