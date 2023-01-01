@@ -1,12 +1,22 @@
 <div align="center">
 <h1>Data Structures & Algorithms for Coding Interview</h1>
+<p align="center">
+<a href="#"> 
+<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<img alt="Stars" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<img alt="Forks" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo?style=for-the-badge"> 
+</a>
+</p>
+
 <b><i>If you appreciate my work, please</i></b> 🌟 <b><i>this repository. It motivates me. 🚀🚀</i></b>
 </div>
 
 <a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpg"></a>
 
 <div align="center">
-<b>View this repository with improved user experience▶️https://samirpaul1.github.io/DSAlgo</b>🚀
+<b>View this repository in online VS Code: <a href="https://samirpaul1.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaul1/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
+</a></b>
 </div>
 
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
