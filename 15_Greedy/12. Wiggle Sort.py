@@ -4,14 +4,15 @@
 class Solution:
     def wiggle_sort(self, nums):
         
-        arr = sorted(nums)
-        
-        # Putting largest element into odd index
-        for i in range(1, len(nums), 2):
-            nums[i] = arr.pop()
-        
-        # Putting remaining element into even index
-        for i in range(0, len(nums), 2):
-            nums[i] = arr.pop()
+        for i in range(1, len(nums)):
+            if  i%2 == 0 and nums[i-1] < nums[i]:
+                nums[i], nums[i-1] = nums[i-1], nums[i]
             
+            if i%2 == 1 and nums[i-1] > nums[i]:
+                nums[i], nums[i-1] = nums[i-1], nums[i]
+        
         return nums
+    
+    
+# Time: O(n)
+# Space: O(1)
