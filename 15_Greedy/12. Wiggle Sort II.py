@@ -1,8 +1,8 @@
-# https://www.lintcode.com/problem/508/
-# https://leetcode.com/problems/wiggle-sort/
+# https://leetcode.com/problems/wiggle-sort-ii/
+# https://youtu.be/vGsyTE4s34w
 
 class Solution:
-    def wiggle_sort(self, nums):
+    def wiggleSort(self, nums):
         
         for i in range(1, len(nums)):
             if  i%2 == 0 and nums[i-1] < nums[i]:
