@@ -1,4 +1,5 @@
-# https://leetcode.com/problems/wiggle-sort-ii/
+# https://www.lintcode.com/problem/508/
+# https://leetcode.com/problems/wiggle-sort/
 # https://youtu.be/vGsyTE4s34w
 
 class Solution:
