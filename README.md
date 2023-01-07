@@ -1,11 +1,11 @@
 <div align="center">
 <h1>Data Structures & Algorithms for Coding Interview</h1>
 <p align="center">
-<a href="#"> 
-<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<a href="#">  
 <img alt="Stars" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo?style=for-the-badge"> 
 <img alt="Forks" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo?style=for-the-badge"> 
 <img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo?style=for-the-badge">
 </a>
 </p>
 
