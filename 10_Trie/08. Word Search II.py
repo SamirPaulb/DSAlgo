@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/word-search-ii/
 # https://youtu.be/asbcE9mZz_U
-
 '''
 In Brute Force DFS time complexity: O(k * m * n * 4^(m*n)) where k = len(words)
 But we can remove the k if we store all the words into a TRIE.
@@ -36,7 +35,6 @@ class Solution:
             if node.isWord: 
                 res.add(word)
                 node.isWord = False
-                
             cur = board[r][c]
             board[r][c] = "#"
             for dx, dy in ((1,0),(-1,0),(0,1),(0,-1)):
