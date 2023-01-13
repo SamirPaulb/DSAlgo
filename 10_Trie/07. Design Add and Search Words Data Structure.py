@@ -1,7 +1,5 @@
 # https://leetcode.com/problems/design-add-and-search-words-data-structure/
 
-# https://leetcode.com/problems/design-add-and-search-words-data-structure/
-
 class TrieNode:
     def __init__(self):
         self.children = {}
