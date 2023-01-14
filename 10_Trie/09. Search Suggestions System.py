@@ -14,7 +14,7 @@ class Solution:
 # Time: O(N log(N)) + O(N * K) ; where N = len(products), K = len(searchWord)
 
 
-# ---------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
 # Method 2: Trie
 class Node:
     def __init__(self):
@@ -22,7 +22,6 @@ class Node:
         self.children = {}
         self.suggestions  = []
 
-        
 class Trie:
     def __init__(self):
         self.root = Node()
@@ -49,7 +48,6 @@ class Trie:
         res += [[] for i in range(len(searchWord)-len(res))]
         return res
                 
-
 class Solution:
     def suggestedProducts(self, products, searchWord):
         products.sort()
@@ -61,7 +59,7 @@ class Solution:
 # Time: O(N log(N)) + O(N * K)
 
     
-# ---------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
 # Method 3: Trie + DFS
 class TrieNode:
     def __init__(self):
