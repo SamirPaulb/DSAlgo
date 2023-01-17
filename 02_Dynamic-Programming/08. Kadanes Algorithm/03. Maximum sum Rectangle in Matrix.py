@@ -1,4 +1,5 @@
 # https://practice.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1
+# https://youtu.be/yCQN096CwWM
 
 class Solution:
     def maximumSumRectangle(self,R,C,M):
@@ -13,7 +14,6 @@ class Solution:
             return ms
         
         res = kadanes(M[0])
-        arr = [0] * C
         for i in range(R):
             arr = [0] * C
             for r in range(i, R):
