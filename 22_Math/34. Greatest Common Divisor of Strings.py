@@ -13,6 +13,9 @@ class Solution:
         i = gcd(len1, len2)
         return str1[:i]
 
+# Time: O(N) 
+# GCD calculation takes O(log(N)) time. But the string iteration and equals checking takes O(N+M) time where, N and M are the length of str1 and str2.
+
 
 
 '''
