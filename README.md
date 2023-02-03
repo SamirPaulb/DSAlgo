@@ -69,9 +69,10 @@ I am continuously trying to improve this repository by adding new questions and 
 
 ---
     
+<details>
+    <summary><h3>List of Important Questions:✨</h3></summary>
     
-### List of Important Questions:✨
-The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA). I have documented all those questions here.✌️
+> The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA). I have documented all those questions here.✌️
 
 
 | Topic                      | Important DSA Questions                                                                              | Link                                                                |
@@ -549,16 +550,13 @@ The following list of questions was recommended by [Love Babbar](https://www.you
 | Moore voting algorithm       | Majority Element                                                                                     | https://www.youtube.com/watch?v=n5QY3x_GNDg                              |
 | Moore voting algorithm       | Majority Element II                                                                                  | https://www.youtube.com/watch?v=yDbkQd9t2ig                              |
 
+</details>
 
-
----
-
+<details>
+    <summary><h3>30 Days Interview Preparation Plan🎯</h3></summary>
     
-
-### [30 Days Interview Preparation Plan](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
-
-<b></b>
-Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
+  https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice
+> Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
 
 <b> </b> 
    
@@ -977,18 +975,21 @@ Day30:
 
     
 
----    
+</details>  
+    
+<details>
+    <summary><h3>System Design – Concepts</h3></summary>
+   
+    
+1. https://samirpaul.in/posts/system-design-course
+        
+2. https://github.com/SamirPaul1/system-design-primer
 
+3. https://www.freecodecamp.org/news/systems-design-for-interviews/
 
-### System Design – Concepts📚
+4. https://github.com/shashank88/system_design
     
 
-1. https://github.com/SamirPaul1/system-design-primer
-
-2. https://www.freecodecamp.org/news/systems-design-for-interviews/
-
-3. https://github.com/shashank88/system_design
-
-
+</details>  
 
 <small><a href="https://github.com/SamirPaul1"> <img src="https://komarev.com/ghpvc/?username=SamirPaul1"/> <img src="https://hits.sh/github.com/SamirPaul1.svg?label=Visitors&extraCount=20000&color=526afd&labelColor=0b861a"/> </a></small>
