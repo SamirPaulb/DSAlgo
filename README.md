@@ -14,11 +14,6 @@
 
 <a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpg"></a>
 
-<div align="center">
-<b>View this repository in online VS Code: <a href="https://samirpaul1.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaul1/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
-</a></b>
-</div>
-
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
 
 :heavy_check_mark:  <ins>_**Topics Covered**_</ins>:
@@ -54,6 +49,15 @@ In various folders of the above topics, you can find questions and concepts rela
 - In the  [**Questions-Sheet**](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet) directory, you can find questions asked by top product-based companies.
 
 - There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
+
+
+<div align="center">
+<h4>View this repository in online VS Code: <a href="https://samirpaul1.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaul1/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
+</a></h4>
+</div>
+<a href="https://samirpaul1.github.io/DSAlgo"><img src="https://samirpaulb.github.io/assets/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
+
+<b></b>
 
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
