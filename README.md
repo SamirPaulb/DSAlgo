@@ -72,6 +72,8 @@ I am continuously trying to improve this repository by adding new questions and 
 <a href="https://github.com/SamirPaul1/DSAlgo"><img alt="Star History" loading="lazy"  src="https://api.star-history.com/svg?repos=SamirPaul1/DSAlgo&type=Date"></a>
 
 ---
+## More Resources:
+> <h4>Click to expand!👇</h4>
     
 <details>
     <summary><h3>List of Important Questions:✨</h3></summary>
