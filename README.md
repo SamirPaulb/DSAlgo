@@ -553,7 +553,7 @@ I am continuously trying to improve this repository by adding new questions and 
 </details>
 
 <details>
-    <summary><h3>30 Days Interview Preparation Plan🎯</h3></summary>
+    <summary><h3>30 Days Interview Preparation Plan:🎯</h3></summary>
     
   https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice
 > Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
@@ -978,16 +978,20 @@ Day30:
 </details>  
     
 <details>
-    <summary><h3>System Design – Concepts</h3></summary>
+    <summary><h3>System Design Concepts:📚</h3></summary>
    
     
 1. https://samirpaul.in/posts/system-design-course
         
 2. https://github.com/SamirPaul1/system-design-primer
 
-3. https://www.freecodecamp.org/news/systems-design-for-interviews/
+3. https://www.freecodecamp.org/news/systems-design-for-interviews
 
 4. https://github.com/shashank88/system_design
+
+5. https://www.geeksforgeeks.org/system-design-tutorial
+
+6. https://youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
     
 
 </details>  
