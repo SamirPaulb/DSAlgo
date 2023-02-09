@@ -1,0 +1,43 @@
+{
+  "background_color": "#ffffff",
+  "description": "A repository that contains all the Data Structures and Algorithms concepts and solutions to various problems in Python3 stored in a structured manner.",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "DSAlgo",
+  "orientation": "landscape",
+  "scope": "/",
+  "short_name": "DSAlgo",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "categories": [
+    "books",
+    "business",
+    "education",
+    "magazines",
+    "news",
+    "personalization",
+    "productivity",
+    "security",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+      "src": "https://samirpaulb.github.io/assets/samirpaul-in-dsalgo-screenshot.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "https://samirpaulb.github.io/assets/samirpaul-in-dsalgo-screenshot.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SamirPaulb/assets/main/samirpaul1-dsalgo-favicon_python.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en"
+}
