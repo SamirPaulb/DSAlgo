@@ -4,7 +4,6 @@
 # Memoization
 class Solution:
     def knapSack(self,W, wt, val, n):
-       
         dp = [[-1]*(W+1) for _ in range(n+1)]
         def dfs(n, W):
             if W == 0 or n == 0: return 0
