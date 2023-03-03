@@ -987,15 +987,13 @@ Day30:
     
 1. https://samirpaul.in/posts/system-design-course
         
-2. https://github.com/SamirPaul1/system-design-primer
+2. **https://github.com/SamirPaul1/system-design**
 
 3. https://www.freecodecamp.org/news/systems-design-for-interviews
 
-4. https://github.com/shashank88/system_design
+4. https://www.geeksforgeeks.org/system-design-tutorial
 
-5. https://www.geeksforgeeks.org/system-design-tutorial
-
-6. https://youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
+5. https://youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
     
 
 </details>  
