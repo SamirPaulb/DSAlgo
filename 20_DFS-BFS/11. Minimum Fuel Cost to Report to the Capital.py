@@ -28,7 +28,7 @@ class Solution:
                 # Recursively call the dfs function to count the number of representatives in the connected city
                 connected_city_representatives = dfs(connected_city)
                 # Calculate the number of cars needed to transport all the representatives in the connected city
-                minimum_fuel_cost += (connected_city_representatives + seats - 1) // seats
+                minimum_fuel_cost += ceil(connected_city_representatives / seats)
                 # Add the number of representatives in the connected city to the representatives variable
                 representatives += connected_city_representatives
             # Return the number of representatives in this city, plus the representative from this city
