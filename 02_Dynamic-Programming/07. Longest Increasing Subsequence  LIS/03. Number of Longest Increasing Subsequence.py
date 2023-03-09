@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/number-of-longest-increasing-subsequence/
-# https://youtu.be/cKVl1TFdNXg
+# https://youtu.be/Tuc-rjJbsXU
 
 
 class Solution:
