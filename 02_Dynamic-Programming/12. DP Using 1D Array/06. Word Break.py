@@ -1,23 +1,26 @@
 # https://leetcode.com/problems/word-break/
 # https://youtu.be/Sx9NNgInc3A
 
-# Recursion
+# Memoization
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        self.res = False
-        def solve(s):
-            if not s:
-                self.res = True
-                return 
-            for i in range(len(s)):
-                if s[:i+1] in wordDict:
-                    solve(s[i+1:])
-                    
-        solve(s)
-        return self.res
+        dp = {}
+        def dfs(l, r):
+            if l >= len(s): return True
+            if r >= len(s): return False
+            if (l,r) in dp: return dp[(l,r)]
+            cur = s[l:r+1]
+            if cur in wordDict:
+                ans = dfs(r+1, r+1) or dfs(l, r+1)
+            else:
+                ans = dfs(l, r+1)
+            dp[(l,r)] = ans
+            return ans
+        
+        return dfs(0, 0)
 
 
-
+# DP
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
@@ -51,3 +54,8 @@ class Solution:
         
         return dp[-1]
         
+
+        
+        
+# Time: O(N^2)
+# Space: O(N)
