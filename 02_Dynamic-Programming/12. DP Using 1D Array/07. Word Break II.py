@@ -27,8 +27,12 @@ class Solution:
         return res
 
     
-    # DP
-    class Solution:
+    
+    
+    
+    
+# DP
+class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         n = len(s)
         dp = [[""]] * (n+1)
