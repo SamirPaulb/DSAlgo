@@ -45,7 +45,7 @@ class Solution:
                     elif dp[i-len(word)] != [""]:
                         for st in dp[i-len(word)]:
                             arr.append(st + " " + word)
-                            
             dp[i] = arr
+            
         # print(dp)
         return dp[-1]
