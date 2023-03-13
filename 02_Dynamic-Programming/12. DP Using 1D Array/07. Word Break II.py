@@ -35,7 +35,7 @@ class Solution:
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         n = len(s)
-        dp = [[""]] * (n+1)
+        dp = [[""] for _ in range(n+1)]
         for i in range(1, n+1):
             arr = []
             for word in wordDict:
