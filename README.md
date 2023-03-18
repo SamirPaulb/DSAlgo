@@ -57,7 +57,8 @@ In various folders of the above topics, you can find questions and concepts rela
 
 <b></b>
 
-I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
+I am continuously trying [![Hits-of-Code](https://hitsofcode.com/github/SamirPaul1/DSAlgo?branch=main)](#)
+ to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
 **Things you can contribute to:**
 - Update the existing solution[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1f1d5f10f6294870aa0591235bebcc66)](https://app.codacy.com/gh/SamirPaul1/DSAlgo/dashboard) with a better one (better complexity).
