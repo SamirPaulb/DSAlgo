@@ -67,6 +67,9 @@ I am continuously trying to improve this repository by adding new questions and 
 - Provide well-documented source code with detailed explanations.
 
 ### Stargazers over time
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/73421e167f39407aba83b4fa14ea56ef)](https://app.codacy.com/gh/SamirPaul1/DSAlgo?utm_source=github.com&utm_medium=referral&utm_content=SamirPaul1/DSAlgo&utm_campaign=Badge_Grade)
+
 <a href="https://github.com/SamirPaul1/DSAlgo"><img alt="Star History" loading="lazy"  src="https://api.star-history.com/svg?repos=SamirPaul1/DSAlgo&type=Date"></a>
 
 ---
