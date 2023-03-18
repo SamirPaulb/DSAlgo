@@ -37,7 +37,6 @@ class BrowserHistory:
     
     
     
-    
 # Method 2 --------- Array ---------
 
 class BrowserHistory:
