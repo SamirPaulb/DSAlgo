@@ -22,7 +22,7 @@ class WordDictionary:
     def search(self, word: str) -> bool:
         def dfs(cur, word):
             if not word:
-                return True if cur.isWord else False
+                return cur.isWord
             elif word[0] in cur.children:
                 return dfs(cur.children[word[0]], word[1:])
             elif word[0] == '.':
