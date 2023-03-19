@@ -1,45 +1,29 @@
 # https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 
-class Solution(object):
-    def jobScheduling(self, startTime, endTime, profit):
-        """
-        :type startTime: List[int]
-        :type endTime: List[int]
-        :type profit: List[int]
-        :rtype: int
-        """
-        lst = sorted(zip(startTime, endTime, profit), key = lambda x: x[1])
-        dpEndTime = [0]
-        dpProfit = [0]
+class Solution:
+    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
+        sep = sorted(zip(startTime, endTime, profit), key = lambda x:x[1])
+        endDP = [0]
+        profitDP = [0]
+        for s,e,p in sep:
+            # right most element whose endTime <= current start time. 
+            i = self.bisect_right(endDP, s) - 1 
+            curProfit = profitDP[i] + p
+            if curProfit > profitDP[-1]:
+                profitDP.append(curProfit)
+                endDP.append(e)
         
-        for start, end, profit in lst:
-            # find rightMost idx to insert this start time
-            # idx is where this new start needs to be inserted
-            # idx - 1 is the one that doesn't overlap
-            idx = self.bSearch(dpEndTime, start)  # or idx = bisect.bisect_right(dpEndTime, start)
-            lastProfit = dpProfit[-1]
-            currProfit = dpProfit[idx-1] + profit # they don't overlap
-            
-            # whener we find currProfit greater than last, we update
-            if currProfit > lastProfit:
-                dpEndTime.append(end)
-                dpProfit.append(currProfit)
-        
-        return dpProfit[-1]
-            
+        return profitDP[-1]
     
-    def bSearch(self, arr, target):  # right most element whose endTime <= current start time. 
-        left, right = 0, len(arr)-1
-        
-        while left <= right:
-            mid = left + (right - left) // 2
-            
+    def bisect_right(self, arr, target): 
+        l, r = 0, len(arr)-1
+        while l <= r:
+            mid = l + (r-l)//2
             if arr[mid] <= target:
-                left = mid + 1
+                l = mid + 1
             else:
-                right = mid - 1
-        
-        return left
+                r = mid - 1
+        return l
     
     
     
