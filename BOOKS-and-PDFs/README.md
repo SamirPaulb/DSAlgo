@@ -1,3 +1,25 @@
-## Books and PDFs for to ace the coding interview! 
-#### 1. [MySQL handy commads](https://samirpaul1.github.io/mysql)
-#### 2. DBMS Handwritten Notes All Concepts [Google Drive](https://drive.google.com/file/d/1CA0U314ATPih2Vz7i0JvOikiw1ROON1c/view?usp=sharing) ---  [Online PDF Reader](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d48232ec-df5d-4316-a884-b84f9176534f)
+## [Books and PDFs for to ace the coding interview!](https://drive.google.com/drive/folders/1MxcOdwilIpNzeslFWnlDQ-bwWFSHb2Fh?usp=sharing) 
+#### Placements-Notes
+##### [DBMS All Notes](https://drive.google.com/file/d/1jvbAfuDqlSQ_c8kLw98K_nGhMht_iMgL/view?usp=sharing)
+##### [OS-All-Notes](https://drive.google.com/file/d/1YNgtbnzqRrCOZ5afiwv2GgW7o55FeYZj/view?usp=sharing)
+##### [Networking Interview Questions](https://drive.google.com/file/d/15HiwLoXuVgVQepXx9DWWwefXVl4R0IZk/view?usp=sharing)
+##### [Networking Interview Questions Answers](https://drive.google.com/file/d/1hSFOwlPArP4GQPe9mDsa9HoZwJ-te--P/view?usp=sharing)
+##### [System Design](https://drive.google.com/file/d/15zkys3ov72qiRPbNyl2l2CfsuDYhN6Lf/view?usp=sharing)
+
+---
+
+#### [Martin Kleppmann-Designing Data-Intensive Applications_ The Big Ideas Behind Reliable, Scalable, and Maintainable Systems-O’Reilly Media (2017)](https://drive.google.com/file/d/1xcJygj5q1VfqNGBxTCL9LwSw-QJRfnGy/view?usp=sharing)
+#### [50 Challenging Problems in Probability for Quant Profile](https://drive.google.com/file/d/1DygxpBqeIvnhOm0vHpcgK2q0SFfJ58RL/view?usp=sharing)
+#### [MySQL handy commads](https://samirpaul1.github.io/mysql)
+#### [DBMS Handwritten Notes All Concepts](https://drive.google.com/file/d/1CA0U314ATPih2Vz7i0JvOikiw1ROON1c/view?usp=sharing) 
+#### [DBMS-Interview_Questions](https://drive.google.com/file/d/12OtLr5gRaiNFCtSdODA_vdolignC0dXU/view?usp=sharing)
+#### [MySQL-Interview_Questions](https://drive.google.com/file/d/17LeOVjNuJJJvsvVeNCgmBx0y13VRDtwQ/view?usp=sharing)
+#### [Networking_Interview_Questions](https://drive.google.com/file/d/1Y4JudxNudrrdWtuB4IP5MI4yvtuudUa3/view?usp=sharing)
+#### [OOPs-Interview-Questions](https://drive.google.com/file/d/1ETDPXhjok0eKGR4NRu-HNz1b-y8tRRfK/view?usp=sharing)
+#### [Operating_System_Interview_Questions](https://drive.google.com/file/d/1VbARMi9YLByYGsDjBQTcry2GiaUjh99i/view?usp=sharing)
+#### [Operating-System-HandWritten-Notes](https://drive.google.com/file/d/1rNj6M-51Qr41I4QU69YzChPI9IkPu_9c/view?usp=sharing)
+#### [Practical-Guide-to-Quantitative-Finance-Interview](https://drive.google.com/file/d/1JjULVuUk5S0Ad8o5WCtGcderj8zIZQD3/view?usp=sharing)
+#### [Python_Interview_Questions](https://drive.google.com/file/d/1OmQie50jXO6SvXSAIzjuh48JiL_-hO7J/view?usp=sharing)
+#### [System-Design-Interview-Questions](https://drive.google.com/file/d/1vHoZRnhscgROmEUPg0snlMoHognEaOMS/view?usp=sharing)
+#### [Web-Services-Interview-Questions](https://drive.google.com/file/d/1C9cK3-wkIDGxSc-cPIXF9YA-w3M0RKXr/view?usp=sharing)
+#### [Web-Testing_Interview_Questionspdf](https://drive.google.com/file/d/1FWWYuV22Z_-gIDysX3G5Fr7jhT4XD8a7/view?usp=sharing)
