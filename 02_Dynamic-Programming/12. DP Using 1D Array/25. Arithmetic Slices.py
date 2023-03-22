@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/arithmetic-slices/
 # https://leetcode.com/problems/arithmetic-slices/solutions/1455367/Python-Bottom-up-DP-Time-O(N)-Space-O(1)-Clean-and-Concise/
 
-
+# ✔️ Solution 1: Bottom up DP
 
 class Solution:
     def numberOfArithmeticSlices(self, nums):
@@ -17,6 +17,7 @@ class Solution:
 # Space: O(n)
     
     
+# ✔️ Solution 2: Bottom up DP (Space Optimized)
 
 class Solution:
     def numberOfArithmeticSlices(self, nums):
