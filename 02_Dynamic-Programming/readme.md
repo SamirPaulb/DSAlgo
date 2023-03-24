@@ -1,8 +1,12 @@
 <div align="center">
-<h1>Dynamic Programming All Concepts in Detail✨</h1>
+<h1><a href="https://drive.google.com/file/d/1wuMmJn2ybYN7eOYDXfe3gkB7TnpdGU3p/view?usp=sharing">Dynamic Programming All Concepts in Detail✨</a></h1>
 </div>
 
-<a href="#"><img width="100%" height="50%" alt="DP banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dynamic-programming.jpg"></a>
+<p align="center">
+<a href="https://drive.google.com/file/d/1wuMmJn2ybYN7eOYDXfe3gkB7TnpdGU3p/view?usp=sharing"><b>Dynamic-Programming-NOTE.pdf</b></a>
+</p>
+
+<a href="https://drive.google.com/file/d/1wuMmJn2ybYN7eOYDXfe3gkB7TnpdGU3p/view?usp=sharing"><img width="100%" height="50%" alt="DP banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dynamic-programming.jpg"></a>
 
 
 
