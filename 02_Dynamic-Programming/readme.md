@@ -6,7 +6,7 @@
 <a href="https://drive.google.com/file/d/1wuMmJn2ybYN7eOYDXfe3gkB7TnpdGU3p/view?usp=sharing"><b>Dynamic-Programming-NOTE.pdf</b></a>
 </p>
 
-<a href="https://drive.google.com/file/d/1wuMmJn2ybYN7eOYDXfe3gkB7TnpdGU3p/view?usp=sharing"><img width="100%" height="50%" alt="DP banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dynamic-programming.jpg"></a>
+<a href="https://github.com/SamirPaulb/assets/blob/main/dsalgo/Dynamic-Programming-NOTE.pdf"><img width="100%" height="50%" alt="DP banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dynamic-programming.jpg"></a>
 
 
 
