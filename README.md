@@ -2,12 +2,14 @@
 <h1>Data Structures & Algorithms for Coding Interview</h1>
 <p align="center">
 <a href="#">  
-<img alt="Stars" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Forks" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo?style=for-the-badge">
+<img alt="Stars" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo"> 
+<img alt="Forks" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo"> 
+<img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo"> 
+<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo">
+<img alt="Hits" src="https://hitsofcode.com/github/SamirPaul1/DSAlgo?branch=main">
+<img alt="language" src="https://user-images.githubusercontent.com/77569653/227633223-43014974-ac8f-4cf9-8605-93d08cb2d5fd.svg">
 </a>
-</p>
+</p>  
 
 <b><i>If you appreciate my work, please</i></b> 🌟 <b><i>this repository. It motivates me. 🚀🚀</i></b>
 </div>
@@ -57,7 +59,7 @@ In various folders of the above topics, you can find questions and concepts rela
 
 <b></b>
 
-I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.[![Hits-of-Code](https://hitsofcode.com/github/SamirPaul1/DSAlgo?branch=main)](#)
+I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.
 
 **Things you can contribute to:**
 - Update the existing solution[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1f1d5f10f6294870aa0591235bebcc66)](https://app.codacy.com/gh/SamirPaul1/DSAlgo/dashboard) with a better one (better complexity).
