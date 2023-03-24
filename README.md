@@ -1000,4 +1000,4 @@ Day30:
 
 </details>  
 
-<a href="#"> <img src="https://komarev.com/ghpvc/?username=SamirPaul1"  width="6" height="1" /> <img src="https://hits.sh/github.com/SamirPaul1.svg?label=Visitors&extraCount=20000&color=526afd&labelColor=0b861a" width="5" height="1" /> </a>
+<a href="#"> <img src="https://komarev.com/ghpvc/?username=SamirPaul1"  width="1" height="1" /> <img src="https://hits.sh/github.com/SamirPaul1.svg?label=Visitors&extraCount=20000&color=526afd&labelColor=0b861a" width="1" height="1" /> </a>
