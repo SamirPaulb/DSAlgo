@@ -1,8 +1,6 @@
 # https://leetcode.com/problems/wildcard-matching/
-# https://leetcode.com/problems/regular-expression-matching/
 # https://youtu.be/NbgUZAoIz3g
 
-# 44. Wildcard Matching
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         dp = [[False]*(len(p)+1) for _ in range(len(s)+1)]
