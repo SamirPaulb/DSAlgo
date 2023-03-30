@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/regular-expression-matching/
 # https://youtu.be/HAA8mgxlov8
 
+# Method 1 : Memoization / Top down ----------------------------------------
 
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
@@ -29,6 +30,7 @@ class Solution:
 
 
 
+# Method 2 : DP / Bottom up ----------------------------------------
 
 class Solution(object):
     def isMatch(self, text, pattern):
