@@ -1,5 +1,7 @@
 # Heap in Python
 
+Video: [https://youtu.be/HqPJF2L5h9U?t=852](https://youtu.be/HqPJF2L5h9U?t=852)
+
 Using Library functions :
 We use heapq class to implement Heaps in Python. 
 By default Min Heap is implemented by this class. 
