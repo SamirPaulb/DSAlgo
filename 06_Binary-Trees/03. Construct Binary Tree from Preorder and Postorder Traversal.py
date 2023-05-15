@@ -1,6 +1,23 @@
 # https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 # https://youtu.be/LnHSOy7ctms
 
+# Method - 1 => Most Efficient
+class Solution:
+    def constructFromPrePost(self, preorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
+        preInd = {v:i for i, v in enumerate(preorder)}
+        def solve(l, r, postorder):
+            if l == r: return None
+            if r-l == 1: return TreeNode(postorder.pop())
+            root = TreeNode(postorder.pop())
+            i = preInd[postorder[-1]]
+            root.right = solve(i, r, postorder)
+            root.left = solve(l+1, i, postorder)
+            return root
+        
+        return solve(0, len(preorder), postorder)
+    
+
+
 class Solution:
     def constructFromPrePost(self, preorder, postorder):
         self.preIndex = 0
@@ -19,7 +36,7 @@ class Solution:
 
 
 
-# Method - 2 => Better
+# Method - 3
 class Solution:
     def constructFromPrePost(self, preorder, postorder):
         
