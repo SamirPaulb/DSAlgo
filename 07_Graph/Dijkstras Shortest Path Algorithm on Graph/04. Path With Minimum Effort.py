@@ -1,33 +1,22 @@
 # https://leetcode.com/problems/path-with-minimum-effort/
-
 # https://youtu.be/FabSLaGu0NI
 
 # Method 1  --------> using Dijkstra's Algorithm
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
-        row = len(heights)
-        col = len(heights[0])
-        
-        minHeap = []
-        heapq.heappush(minHeap, (0, 0, 0))  # (distance, row, col)
-        
-        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        row, col = len(heights), len(heights[0])
         visited = set()
-        dp = [[2**31]*col for i in range(row)]
-        
+        minHeap = [(0,0,0)]  # (distance, row, col)
         while minHeap:
-            d, r, c = heapq.heappop(minHeap)
-            if (r, c) in visited: continue
+            h,r,c = heapq.heappop(minHeap)
+            if (r,c) == (row-1, col-1): return h
+            if (r,c) in visited: continue
             visited.add((r,c))
-            dp[r][c] = d
-            if r == row-1 and c == col-1: return dp[r][c]    
-            for direc in directions:
-                nr = r + direc[0]
-                nc = c + direc[1]
-                if 0 <= nr < row and 0 <= nc < col:
-                    nd = max(dp[r][c], abs(heights[r][c] - heights[nr][nc]))
-                    if nd < dp[nr][nc]:
-                        heapq.heappush(minHeap, (nd, nr, nc))
+            for x,y in ((0,1),(0,-1),(1,0),(-1,0)):
+                nr, nc = r+x, c+y
+                if not (0<=nr<row and 0<=nc<col): continue
+                nh = max(h, abs(heights[nr][nc] - heights[r][c]))
+                heapq.heappush(minHeap, (nh,nr,nc))
         
         return 0
 
