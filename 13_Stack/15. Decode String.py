@@ -1,28 +1,30 @@
 # https://leetcode.com/problems/decode-string/
+# https://youtu.be/qB0zZpBJlh8
 
 class Solution:
     def decodeString(self, s: str) -> str:
-        stack = []; curNum = 0; curString = ''
-        
-        for ch in s:
-            if ch.isdigit():
-                curNum = curNum * 10 + int(ch)
-            
-            elif ch == '[':
-                stack.append(curString)
-                stack.append(curNum)
-                curNum = 0
-                curString = ''
-            
-            elif ch == ']':
-                num = stack.pop()
-                prevString = stack.pop()
-                curString = prevString + num * curString
-                
+        stack = []
+        i = 0
+        while i < len(s):
+            if s[i] == ']':
+                tmp = ""
+                while stack:
+                    top = stack.pop()
+                    if top == '[': break
+                    tmp = top + tmp
+                n = int(stack.pop())
+                stack.append(n*tmp)
             else:
-                curString += ch
+                num = ""
+                while i < len(s) and s[i].isnumeric():
+                    num += s[i]
+                    i += 1
+                if num:
+                    stack.append(num)
+                stack.append(s[i])
+            i += 1
         
-        return curString
+        return "".join(stack)
     
 # Time: O(N)
 # Space: O(N)
