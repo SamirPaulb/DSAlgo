@@ -5,7 +5,6 @@
 <img alt="Stars" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo"> 
 <img alt="Forks" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo"> 
 <img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo"> 
-<img alt="Lines" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo">
 <img alt="Hits" src="https://hitsofcode.com/github/SamirPaul1/DSAlgo?branch=main">
 <img alt="language" src="https://user-images.githubusercontent.com/77569653/227633223-43014974-ac8f-4cf9-8605-93d08cb2d5fd.svg">
 </a>
