@@ -1,3 +1,5 @@
+# https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+
 # Theory: https://youtu.be/zPtI8q9gvX8
 # Approach: https://youtu.be/LjPx4wQaRIs
 
