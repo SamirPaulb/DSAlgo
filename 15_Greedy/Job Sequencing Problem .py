@@ -19,26 +19,21 @@ Output:
 
 class Solution:
     def JobScheduling(self,jobs,n):
-        # Sort based on the profit in decending order
-        jobs.sort(key = lambda x:x[2])
+        jobs.sort(key = lambda x:x[2], reverse = True)
+        res = count = 0
+        booked = set()
         
-        maxDeadline = 0
-        for job in jobs:
-            maxDeadline = max(maxDeadline, job[1])
+        for i, d, p in jobs:
+            j = d
+            while j in booked:
+                j -= 1
+            if j <= 0: continue
+            booked.add(j)
+            res += p
+            count += 1
         
-        jobDone = [False] * (maxDeadline + 1)
-        
-        jobsCount = 0
-        totalProfit = 0
-        for job in jobs:
-            for i in range(job[1], 0, -1):
-                if jobDone[i] == False:
-                    jobsCount += 1
-                    totalProfit += job[2]
-                    jobDone[i] == True
-                    break
-        
-        return jobsCount, totalProfit
+        return count, res
+
 
 # Time: O(N log(N)) + O(N * M)    # where N = len(jobs); M = maxDeadline
 # Space: O(M)
