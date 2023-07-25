@@ -8,13 +8,11 @@ at which the corresponding bits are different.
 Hamming distance between 4 (0100) and 14 (1110) is 2. as two bits at corresponding position are different
 '''
 
-def hammingDistance(n1, n2) :
- 
-    x = n1 ^ n2
-    setBits = 0
- 
-    while (x > 0) :
-        setBits += x & 1
-        x >>= 1
-     
-    return setBits
+
+class Solution:
+    def hammingDistance(self, x: int, y: int) -> int:
+        res = 0
+        for i in range(32):
+            if x&(1<<i) != y&(1<<i):
+                res += 1
+        return res
