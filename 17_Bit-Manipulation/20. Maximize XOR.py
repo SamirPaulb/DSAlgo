@@ -19,3 +19,6 @@ class Solution:
 		    i += 1
             n = n >> 1
         return res
+
+# Time: O(32)
+# Space: O(1)
