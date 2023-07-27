@@ -1,7 +1,13 @@
 # https://www.geeksforgeeks.org/maximum-number-chocolates-distributed-equally-among-k-students/
 
 '''
-Given n boxes containing some chocolates arranged in a row. There are k number of students. The problem is to distribute maximum number of chocolates equally among k students by selecting a consecutive sequence of boxes from the given lot. Consider the boxes are arranged in a row with numbers from 1 to n from left to right. We have to select a group of boxes which are in consecutive order that could provide maximum number of chocolates equally to all the k students. An array arr[] is given representing the row arrangement of the boxes and arr[i] represents number of chocolates in that box at position ‘i’.
+Given n boxes containing some chocolates arranged in a row. There are k number of students. 
+The problem is to distribute maximum number of chocolates equally among k students by selecting
+a consecutive sequence of boxes from the given lot. Consider the boxes are arranged in a row with
+numbers from 1 to n from left to right. We have to select a group of boxes which are in consecutive
+order that could provide maximum number of chocolates equally to all the k students. An array arr[]
+is given representing the row arrangement of the boxes and arr[i] represents number of chocolates
+in that box at position ‘i’.
 
 The problem is to find maximum sum sub-array divisible by k and then return (sum / k).
 
@@ -31,29 +37,29 @@ with indexes {1, 2, 3, 4}.
 # among k students
 def maxNumOfChocolates(arr, n, k):
 	
-	um, curr_rem, maxSum = {}, 0, 0
+	prev_rem, curr_rem, maxSum = {}, 0, 0
 	
-	# 'sm[]' to store cumulative sm,
-	# where sm[i] = sm(arr[0]+..arr[i])
-	sm = [0]*n
-	sm[0] = arr[0]
+	# 'prefixSum[]' to store cumulative prefix sum,
+	# where prefixSum[i] = prefixSum(arr[0]+..arr[i])
+	prefixSum = [0]*n
+	prefixSum[0] = arr[0]
 	
-	# building up 'sm[]'
+	# building up 'prefixSum[]'
 	for i in range(1, n):
-		sm[i] = sm[i - 1] + arr[i]
+		prefixSum[i] = prefixSum[i - 1] + arr[i]
 		
-	# traversing 'sm[]'
+	# traversing 'prefixSum[]'
 	for i in range(n):
 
 		# finding current remainder
-		curr_rem = sm[i] % k
+		curr_rem = prefixSum[i] % k
 		
-		if (not curr_rem and maxSum < sm[i]) :
-			maxSum = sm[i]
-		elif (not curr_rem in um) :
-			um[curr_rem] = i
-		elif (maxSum < (sm[i] - sm[um[curr_rem]])):
-			maxSum = sm[i] - sm[um[curr_rem]]
+		if (not curr_rem and maxSum < prefixSum[i]) :
+			maxSum = prefixSum[i]
+		elif (curr_rem not in prev_rem) :
+			prev_rem[curr_rem] = i
+		elif (maxSum < (prefixSum[i] - prefixSum[prev_rem[curr_rem]])):
+			maxSum = prefixSum[i] - prefixSum[prev_rem[curr_rem]]
 		
 	return maxSum//k
 	
