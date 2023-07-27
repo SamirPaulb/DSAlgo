@@ -3,26 +3,24 @@
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
         stack = []
-        for n in nums:
+        for num in nums:
             if not stack:
-                stack.append(n)
+                stack.append(num)
                 continue
-            elif len(stack)%2 and stack[-1] <= n:  # Odd index
-                stack.pop()
-            elif not len(stack)%2 and stack[-1] >= n:  # even index
-                stack.pop()
-            stack.append(n)
-                
-        if not len(stack)%2:
-            stack.pop()
-
-        # print(stack)
+            elif len(stack)%2 == 1 and stack[-1] <= num:    
+                stack.pop() # current num is greater than even index num
+            elif len(stack)%2 == 0 and stack[-1] >= num:    
+                stack.pop() # current num is smaller than odd index num 
+            stack.append(num)
+            
+        if len(stack)%2 == 0: stack.pop()   # remove odd index value
+            
         res = 0
-        for i in range(1, len(stack)+1):
-            if i%2:
-                res += stack[i-1]
+        for i in range(len(stack)):
+            if i%2 == 0:
+                res += stack[i]
             else:
-                res -= stack[i-1]
+                res -= stack[i]
         
         return res
     
@@ -45,6 +43,6 @@ class Solution:
             even = max(odd - num, even)
         
         return max(odd, even)
-    
+ 
 # Time: O(N)
 # Space: O(1)
