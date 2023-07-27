@@ -37,7 +37,7 @@ with indexes {1, 2, 3, 4}.
 # among k students
 def maxNumOfChocolates(arr, n, k):
 	
-	prev_rem, curr_rem, maxSum = {}, 0, 0
+	prev_rem, cur_rem, maxSum = {}, 0, 0
 	
 	# 'prefixSum[]' to store cumulative prefix sum,
 	# where prefixSum[i] = prefixSum(arr[0]+..arr[i])
@@ -52,15 +52,15 @@ def maxNumOfChocolates(arr, n, k):
 	for i in range(n):
 
 		# finding current remainder
-		curr_rem = prefixSum[i] % k
+		cur_rem = prefixSum[i] % k
 		
-		if (not curr_rem and maxSum < prefixSum[i]) :
+		if (cur_rem == 0 and maxSum < prefixSum[i]) :
 			maxSum = prefixSum[i]
-		elif (curr_rem not in prev_rem) :
-			prev_rem[curr_rem] = i
-		elif (maxSum < (prefixSum[i] - prefixSum[prev_rem[curr_rem]])):
-			maxSum = prefixSum[i] - prefixSum[prev_rem[curr_rem]]
-		
+		elif (cur_rem not in prev_rem) :
+			prev_rem[cur_rem] = i
+		elif (maxSum < (prefixSum[i] - prefixSum[prev_rem[cur_rem]])):
+			maxSum = prefixSum[i] - prefixSum[prev_rem[cur_rem]]
+																						
 	return maxSum//k
 	
 # Driver program to test above
