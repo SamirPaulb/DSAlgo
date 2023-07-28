@@ -1,4 +1,22 @@
 # https://leetcode.com/problems/rabbits-in-forest/
+
+
+class Solution:
+    def numRabbits(self, answers):
+        cnt = collections.Counter()
+        for i in answers:
+            cnt[i] += 1
+        
+        res = 0
+        for i in cnt:
+            c = cnt[i]
+            res += ceil(c/(i+1)) * (i+1)
+        
+        return res
+    
+
+
+
 # https://youtu.be/9mEUIdP4ytw
 '''
 If answers[i] == v then the current rabbit must be from a group of (v+1) rabits.
