@@ -2,17 +2,22 @@
 
 class Solution:
     def countKDifference(self, nums, k):
-        seen = defaultdict(int) # make dictionary of integers as key and value as 0
-        # seen = {i:0 for i in range(min(nums)-k, max(nums)+k+1)}
-        count = 0
+        cnt = collections.Counter()
+        for n in nums:
+            cnt[n] += 1
+            
+        res = 0
+        taken = set()
+        for n in cnt:
+            l, r = n-k, n+k
+            if l not in taken: 
+                res += cnt[n] * cnt[l]
+            if r not in taken:
+                res += cnt[n] * cnt[r]
+            taken.add(n)
         
-        for num in nums:
-            # count of num - (num-k) is seen[num-k]
-            # count of num - (num+k) is seen[num+k]
-            count += seen[num-k] + seen[num+k]
-            seen[num] += 1
+        return res
         
-        return count
     
 '''    
 class Solution:
