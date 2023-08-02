@@ -1,33 +1,32 @@
 # https://leetcode.com/problems/minimum-window-substring/
-# https://youtu.be/jSto0O4AJbM
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        tCount, sWindow = {}, {}
-        for c in t:
-            tCount[c] = 1 + tCount.get(c, 0)   # if c present in tCount get its count else 0
-
-        have = 0; need = len(tCount)
-        res = ""; resLen = 2**31
-        l, r = 0, 0
-        while r < len(s):
-            c = s[r]
-            if c in tCount:
-                sWindow[c] = 1 + sWindow.get(c, 0)
-                if sWindow[c] == tCount[c]:
-                    have += 1
-            r += 1
-            while have == need:
-                if s[l] in sWindow:
-                    if r - l < resLen:
-                        res = s[l : r]
-                        resLen = r - l
-                    sWindow[s[l]] -= 1
-                    if sWindow[s[l]] < tCount[s[l]]: 
-                        have -= 1
-                l += 1
+        tcnt = collections.Counter(t)
+        scnt = collections.Counter()
+        stMatch = collections.Counter()
+        res = ""
+        l = 0
+        res = ""
+        maxLen = len(s)
         
-        return res if resLen != 2**31 else ""
+        for r in range(len(s)):
+            if s[r] in tcnt:
+                scnt[s[r]] += 1
+                if scnt[s[r]] >= tcnt[s[r]]:
+                    stMatch[s[r]] = tcnt[s[r]]
+            # print(stMatch)
+            while stMatch == tcnt and l <= r:
+                if r-l+1 <= maxLen:
+                    maxLen = r-l+1
+                    res = s[l:r+1]
+                if s[l] in tcnt: 
+                    scnt[s[l]] -= 1
+                    if scnt[s[l]] < tcnt[s[l]]:
+                        stMatch[s[l]] = scnt[s[l]]
+                l += 1
+            # print(l,r,scnt)
+        return res
         
                 
             
