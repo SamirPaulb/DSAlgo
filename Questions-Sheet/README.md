@@ -20,4 +20,12 @@
 
 #### [Top 75 LeetCode Questions](https://docs.google.com/spreadsheets/d/1fjf7wQ2l231Z1eYIuM9Mp3-dOi_z3_M7/edit?usp=sharing&ouid=111340581537624774766&rtpof=true&sd=true)
 
+#### [FAANG - Most Asked Coding Question](https://drive.google.com/file/d/1HyTqs9HWtuhnR2tmz-evW-NwYRAPps0f/view?usp=sharing)
+
+#### [50 Days DSA Challenge](https://drive.google.com/file/d/1c7YGJQeOjX85GClV5yGLEIe_pPv4Gcu_/view?usp=sharing)
+
+#### [A Preparation Guide for MAANG Interviews : 60 Days DSA Challenge ](https://drive.google.com/file/d/1DVioUltKpartTN1CSLgDC009E3K5hSSw/view?usp=sharing)
+
+
+#### [SDE Interview DSA Sheet ](https://drive.google.com/file/d/1hvXNIEhINs7jEsF5VL9zDIvcV4psCgjk/view?usp=sharing)
 ### [Behavioral Interview Questions](https://github.com/SamirPaul1/DSAlgo/blob/main/Questions-Sheet/Behavioral_Interview.md)
