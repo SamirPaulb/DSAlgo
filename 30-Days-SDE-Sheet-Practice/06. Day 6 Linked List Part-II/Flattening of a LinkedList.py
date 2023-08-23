@@ -29,35 +29,22 @@ class Node:
 '''
 
 def flatten(head):
-    while head:
-        if not head.next: return head
-        
-        if head.data <= head.next.data:
-            a = head
-            b = head.next
-            c = b.next
-        else:
-            a = head.next
-            b = head
-            c = a.next
-            head = head.next
-
+    while head.next:
+        a, b = head, head.next
         while a:
-            if b and a.bottom and a.bottom.data > b.data:
+            if not a.bottom:
+                a.bottom = b
+                break
+            elif not b: break
+            elif a.bottom.data > b.data:
                 tmp = a.bottom
                 a.bottom = b
                 b = tmp
-            elif not a.bottom:
-                a.bottom = b
-                b = None
-            elif not a.bottom and not b:
-                a.bottom = c
-                break
             a = a.bottom
-        head.next = c
-        
+        head.next = head.next.next
+    
     return head
-            
+                
 
 # Time Complexity: O(N*N*M)
 # Auxiliary Space: O(1)
