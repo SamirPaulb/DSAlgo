@@ -52,9 +52,9 @@ In various folders of the above topics, you can find questions and concepts rela
 - There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaulb/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
 
-<h4>View this repository in online VS Code: <a href="https://samirpaul1.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
+<h4>View this repository in online VS Code: <a href="https://samirpaulb.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
 </a></h4>
-<a href="https://samirpaul1.github.io/DSAlgo"><img src="https://samirpaulb.github.io/assets/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
+<a href="https://samirpaulb.github.io/DSAlgo"><img src="https://samirpaulb.github.io/assets/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
 
 <b></b>
 
