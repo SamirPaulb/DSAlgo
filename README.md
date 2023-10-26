@@ -61,7 +61,7 @@ In various folders of the above topics, you can find questions and concepts rela
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.
 
 **Things you can contribute to:**
-- Update the existing solution <a href="https://app.codacy.com/gh/SamirPaulb/DSAlgo/dashboard"><img loading="lazy" src="https://app.codacy.com/project/badge/Grade/1f1d5f10f6294870aa0591235bebcc66" alt="Codacy Badge" width="90" height="15"></a> with a better one (better complexity).
+- Update the existing solution <a href="https://app.codacy.com/gh/SamirPaulb/DSAlgo/dashboard"><img loading="lazy" src="https://app.codacy.com/project/badge/Grade/a82141cd87824a70a52376e06b78807f" alt="Codacy Badge" width="90" height="15"></a> with a better one (better complexity).
 - Add new questions and solutions in ```Python3``` to the respective directory.
 - Add new resources to [BOOKS-and-PDFs](https://github.com/SamirPaulb/DSAlgo/tree/main/BOOKS-and-PDFs) & [Questions-Sheet](https://github.com/SamirPaulb/DSAlgo/tree/main/Questions-Sheet).
 - Solve issues raised by other people or yourself.
