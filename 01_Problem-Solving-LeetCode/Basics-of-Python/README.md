@@ -1,5 +1,5 @@
 # Python programming tutorial for beginners
-### https://github.com/SamirPaul1/SamirPaul1.PYTHON
+### https://github.com/SamirPaulb/SamirPaul1.PYTHON
 
 This is a concise Python 3 programming tutorial for people who think
 that reading is boring. I try to show everything with simple code
@@ -16,7 +16,7 @@ use Python 2 because it's no longer supported.**
 
 ### How can I read this tutorial without an Internet connection?
 
-1. Go [HERE](https://github.com/SamirPaul1/Python-3) if you aren't
+1. Go [HERE](https://github.com/SamirPaulb/Python-3) if you aren't
     here already.
 2. Click the big green "Clone or download" button in the top right of
     the page, then click "Download ZIP".

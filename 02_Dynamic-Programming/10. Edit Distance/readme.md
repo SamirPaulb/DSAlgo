@@ -13,7 +13,7 @@ rorse -> rose (remove 'r')
 rose -> ros (remove 'e')
 ```
 [LeetCode Problem Statement](https://leetcode.com/problems/edit-distance/)  \
-[Solution using DP](https://github.com/SamirPaul1/DSAlgo/blob/main/02_Dynamic-Programming/10.%20Edit%20Distance/03.%20Edit%20Distance%20Tabular%20DP.py)
+[Solution using DP](https://github.com/SamirPaulb/DSAlgo/blob/main/02_Dynamic-Programming/10.%20Edit%20Distance/03.%20Edit%20Distance%20Tabular%20DP.py)
 
 [PDF📚](https://github.com/SamirPaulb/assets/blob/main/edit-distance.pdf)
 <a href="#"><img src="https://raw.githubusercontent.com/SamirPaulb/assets/main/edit-distance_1.jpg" /></a>

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/koko-eating-bananas/
-# https://github.com/SamirPaul1/DSAlgo/blob/main/11_Binary-Search/01.%20Allocate%20Minimum%20Number%20Of%20Pages.py
+# https://github.com/SamirPaulb/DSAlgo/blob/main/11_Binary-Search/01.%20Allocate%20Minimum%20Number%20Of%20Pages.py
 
 class Solution:
     def minEatingSpeed(self, piles, h):

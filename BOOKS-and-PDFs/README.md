@@ -10,7 +10,7 @@
 
 #### [Martin Kleppmann-Designing Data-Intensive Applications_ The Big Ideas Behind Reliable, Scalable, and Maintainable Systems-O’Reilly Media (2017)](https://drive.google.com/file/d/1xcJygj5q1VfqNGBxTCL9LwSw-QJRfnGy/view?usp=sharing)
 #### [50 Challenging Problems in Probability for Quant Profile](https://drive.google.com/file/d/1DygxpBqeIvnhOm0vHpcgK2q0SFfJ58RL/view?usp=sharing)
-#### [MySQL handy commads](https://samirpaul1.github.io/mysql)
+#### [MySQL handy commads](https://samirpaulb.github.io/mysql)
 #### [DBMS Handwritten Notes All Concepts](https://drive.google.com/file/d/1CA0U314ATPih2Vz7i0JvOikiw1ROON1c/view?usp=sharing) 
 #### [DBMS-Interview_Questions](https://drive.google.com/file/d/12OtLr5gRaiNFCtSdODA_vdolignC0dXU/view?usp=sharing)
 #### [MySQL-Interview_Questions](https://drive.google.com/file/d/17LeOVjNuJJJvsvVeNCgmBx0y13VRDtwQ/view?usp=sharing)

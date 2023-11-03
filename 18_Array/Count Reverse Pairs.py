@@ -2,7 +2,7 @@
 # https://youtu.be/S6rsAlj_iB4
 '''
 use the merge sort concept of Inversion of Array 
-https://github.com/SamirPaul1/DSAlgo/blob/main/30-Days-SDE-Sheet-Practice/02.%20Day%202%20Arrays%20Part-II/Inversion%20of%20Array%20-using%20Merge%20Sort.py
+https://github.com/SamirPaulb/DSAlgo/blob/main/30-Days-SDE-Sheet-Practice/02.%20Day%202%20Arrays%20Part-II/Inversion%20of%20Array%20-using%20Merge%20Sort.py
 '''
 class Solution:
     def __init__(self):
