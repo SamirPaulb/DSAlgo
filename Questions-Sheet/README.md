@@ -20,4 +20,4 @@
 
 #### [Top 75 LeetCode Questions](https://docs.google.com/spreadsheets/d/1fjf7wQ2l231Z1eYIuM9Mp3-dOi_z3_M7/edit?usp=sharing&ouid=111340581537624774766&rtpof=true&sd=true)
 
-### [Behavioral Interview Questions](https://github.com/SamirPaul1/DSAlgo/blob/main/Questions-Sheet/Behavioral_Interview.md)
+### [Behavioral Interview Questions](https://github.com/SamirPaulb/DSAlgo/blob/main/Questions-Sheet/Behavioral_Interview.md)
