@@ -13,7 +13,7 @@
 <b><i>If you appreciate my work, please</i></b> 🌟 <b><i>this repository. It motivates me. 🚀🚀</i></b>
 </div>
 
-<a href="#"><img width="1188" alt="DSA banner" src="https://raw.githubusercontent.com/SamirPaulb/assets/main/dsa-in-python.jpg"></a>
+<a href="#"><img width="1188" alt="DSA banner" src="https://scdn.netlify.app/dsa-in-python.jpg"></a>
 
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
 
@@ -54,7 +54,7 @@ In various folders of the above topics, you can find questions and concepts rela
 
 <h4>View this repository in online VS Code: <a href="https://samirpaulb.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
 </a></h4>
-<a href="https://samirpaulb.github.io/DSAlgo"><img src="https://samirpaulb.github.io/assets/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
+<a href="https://samirpaulb.github.io/DSAlgo"><img src="https://scdn.netlify.app/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
 
 <b></b>
 
@@ -998,5 +998,3 @@ Day30:
     
 
 </details>  
-
-<a href="#"> <img src="https://komarev.com/ghpvc/?username=SamirPaul1"  width="1" height="1" /> <img src="https://hits.sh/github.com/SamirPaulb.svg?label=Visitors&extraCount=20000&color=526afd&labelColor=0b861a" width="1" height="1" /> </a>
