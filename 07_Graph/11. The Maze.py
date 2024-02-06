@@ -22,3 +22,6 @@ class Solution:
                 if maze[x][y] == 0: q.append([x, y])
         
         return False
+
+# Time: O(row * col)
+# Space: O(1)
