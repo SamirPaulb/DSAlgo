@@ -1,8 +1,0 @@
-a = '''Samir'''
-# a = "Samir"
-# a = 'Samir'
-b = 343.55
-c = 45
-print(a)
-print(b)
-print(c)
