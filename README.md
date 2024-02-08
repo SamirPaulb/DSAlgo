@@ -6,7 +6,7 @@
 <img alt="Forks" src="https://img.shields.io/github/forks/SamirPaulb/DSAlgo"> 
 <img alt="Size" src="https://img.shields.io/github/repo-size/SamirPaulb/DSAlgo"> 
 <img alt="Hits" src="https://hitsofcode.com/github/SamirPaulb/DSAlgo?branch=main">
-<img alt="language" src="https://user-images.githubusercontent.com/77569653/227633223-43014974-ac8f-4cf9-8605-93d08cb2d5fd.svg">
+<img alt="language" src="https://github.com/SamirPaulb/DSAlgo/assets/77569653/030fb10d-3def-4a4c-8beb-2eb9b111c1fb">
 </a>
 </p>  
 
