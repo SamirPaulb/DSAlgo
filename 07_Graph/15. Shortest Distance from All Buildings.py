@@ -60,3 +60,8 @@ class Solution:
       
         # If no cell can reach all buildings, return -1; otherwise, return the minimum distance
         return -1 if answer == float('inf') else answer
+
+
+
+# Time: O((m * n) * (m * n))    # where m is the number of rows and n is the number of columns in the grid. As there could be up to m * n buildings in the worst case.
+# Space: O(m * n) 
