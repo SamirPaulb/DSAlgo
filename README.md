@@ -73,10 +73,10 @@ I am continuously trying to improve this repository by adding new questions and 
 
 ---
 ## More Resources:
-> <h4>Click to expand!👇</h4>
+> ***Click to expand!👇***
     
 <details>
-    <summary><h3>List of Important Questions:✨</h3></summary>
+ <summary><b>List of Important Questions:✨</b></summary>
     
 > The following list of questions was recommended by [Love Babbar](https://www.youtube.com/c/LoveBabbar1) on this [video](https://youtu.be/4iFALQ1ACdA). I have documented all those questions here.✌️
 
@@ -559,7 +559,7 @@ I am continuously trying to improve this repository by adding new questions and 
 </details>
 
 <details>
-    <summary><h3>30 Days Interview Preparation Plan:🎯</h3></summary>
+<summary><b>30 Days Interview Preparation Plan:🎯</b></summary>
     
   https://github.com/SamirPaulb/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice
 > Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
@@ -984,7 +984,7 @@ Day30:
 </details>  
     
 <details>
-    <summary><h3>System Design Concepts:📚</h3></summary>
+<summary><b>System Design Concepts:📚</b></summary>
    
     
 1. https://samirpaul.in/posts/system-design-course
