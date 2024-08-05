@@ -2,6 +2,26 @@
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        memo = {}
+        def solve(i,k,can_sell):
+            if i == len(prices) or k == 0: return 0
+            if (i,k,can_sell) in memo: return memo[(i,k,can_sell)]
+            # 1 transaction = 1 buy + 1 sell => so only after sell k = k-1 
+            if can_sell == 1:
+                profit = max(prices[i] + solve(i+1,k-1,0), solve(i+1,k,1))
+            else:
+                profit = max(-prices[i] + solve(i+1,k,1), solve(i+1,k,0))
+            memo[(i,k,can_sell)] = profit
+            return profit
+        return solve(0,2,0)  # k = 2 transactions
+
+# Time: O(2 * 2 * N)
+# Space: O(2 * 2 * N)
+
+###################################################################################################
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
         # Devide the array prices in two parts and apply buy and sell stock 1 approach on both part
         # But that would take O(n*n)
         # Trick:
@@ -35,7 +55,6 @@ class Solution:
         	res = max(res, profit1[i] + profit2[i])
 
         return res
-    
         
 # Time Complexity = O(n)
 # Space Complexity = O(n)
