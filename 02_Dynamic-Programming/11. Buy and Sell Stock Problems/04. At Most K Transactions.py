@@ -1,6 +1,25 @@
 # https://youtu.be/3YILP-PdEJA
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 
+class Solution:
+    def maxProfit(self, k: int, prices: List[int]) -> int:
+        memo = {}
+        def solve(i,k,can_sell):
+            if i == len(prices) or k == 0: return 0
+            if (i,k,can_sell) in memo: return memo[(i,k,can_sell)]
+            # 1 transaction = 1 buy + 1 sell => so only after sell k = k-1 
+            if can_sell == 1:
+                profit = max(prices[i] + solve(i+1,k-1,0), solve(i+1,k,1))
+            else:
+                profit = max(-prices[i] + solve(i+1,k,1), solve(i+1,k,0))
+            memo[(i,k,can_sell)] = profit
+            return profit
+        return solve(0,k,0)  
+        
+# Time: O(2 * k * N)
+# Space: O(2 * k * N)
+
+'''
 # -------------------------------  Recursive + Memoization => TLE -----------------------------------
 class Solution:
     def maxProfit(self, k, prices):
@@ -111,3 +130,4 @@ class Solution(object):
     
 # Time Complexity: O(n*k)
 # Space Complexity: O(n)
+'''
