@@ -53,7 +53,7 @@ In various folders of the above topics, you can find questions and concepts rela
 - There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaulb/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
 
-<h4>View this repository in online VS Code: <a href="https://samirpaulb.github.io/DSAlgo"> <Strong> https://samirpaul.in/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
+<h4>View this repository in online VS Code: <a href="https://samirpaulb.github.io/DSAlgo"> <Strong> https://samirpaulb.github.io/DSAlgo</strong>  <img alt="DSAlgo" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
 </a></h4>
 <a href="https://samirpaulb.github.io/DSAlgo"><img src="https://scdn.netlify.app/samirpaul.in-DSAlgo-demo.png" alt="DSA Online VSCode"></a>
 
@@ -987,7 +987,7 @@ Day30:
 <summary><b>System Design Concepts:📚</b></summary>
    
     
-1. https://samirpaul.in/posts/system-design-course
+1. https://samirpaulb.github.io/posts/system-design-course
         
 2. **https://github.com/SamirPaulb/system-design**
 
