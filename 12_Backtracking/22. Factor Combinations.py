@@ -5,21 +5,20 @@ from typing import List
 
 class Solution:
     def get_factors(self, n: int) -> List[List[int]]:
-        if n <= 1: 
-            return []
-
+        self.n = n
         res = []
-        i = 2
-        while i*i <= n:
-            if n%i == 0:
-                res.append([i, n//i])
-                subres = self.get_factors(n//i)
-                for arr in subres:
-                    if arr[0] >= i:
-                        res.append([i] + arr)
-            i += 1
-
-        return res 
+        def solve(n, i, tmp):
+            if n == 1:
+                res.append(tmp)
+                return 
+            while i*i <= n:
+                if n%i == 0:
+                    solve(n//i, i, tmp + [i])
+                i += 1
+            if n < self.n:
+                solve(n//n, n, tmp + [n])
+        solve(self.n, 2, [])
+        return res
 
 
 # Time: O(sqrt(n) * log(n))    # https://algo.monster/liteproblems/254
