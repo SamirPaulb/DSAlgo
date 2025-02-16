@@ -1,6 +1,36 @@
 # https://www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=11
 # https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1
 
+
+class Solution:
+    def minDifference(self, arr):
+        total_sum = sum(arr)
+        n = len(arr)
+        target = total_sum // 2  # We only need to consider subset sums up to total_sum/2
+        memo = {}
+
+        # Recursive function with memoization
+        def solve(i, s1):
+            if i == n:
+                return abs(total_sum - 2 * s1)  # Calculate min difference
+            if (i, s1) in memo:
+                return memo[(i, s1)]
+            
+            # Option 1: Include arr[i] in subset s1 (if within limits)
+            include = solve(i + 1, s1 + arr[i]) if s1 + arr[i] <= target else float("inf")
+            
+            # Option 2: Exclude arr[i] from subset s1
+            exclude = solve(i + 1, s1)
+
+            # Store result in memo table
+            memo[(i, s1)] = min(include, exclude)
+            return memo[(i, s1)]
+
+        return solve(0, 0)
+
+
+
+
 class Solution:
     def minDifference(self, arr, n):
         # code here
