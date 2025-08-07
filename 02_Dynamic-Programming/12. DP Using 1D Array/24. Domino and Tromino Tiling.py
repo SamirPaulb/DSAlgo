@@ -1,3 +1,47 @@
+# https://m.youtube.com/watch?v=8q0CZ748pz4
+
+class Solution:
+    def numTilings(self, n: int) -> int:
+        MOD = 10**9 + 7
+        memo = {}
+        
+        def solve(i, j):
+            if i == j == 0:
+                return 1
+            if i < 0 or j < 0 or abs(i - j) > 1:
+                return 0
+            if (i, j) in memo:
+                return memo[(i, j)]
+
+            ans = 0
+            if i == j:
+                ans += solve(i-1, j-1)     # vertical domino
+                ans += solve(i-2, j-2)     # two horizontal dominos
+                ans += solve(i-1, j-2)     # L tromino
+                ans += solve(i-2, j-1)     # reverse L tromino
+            elif i > j:
+                ans += solve(i-2, j)       # vertical domino on left
+                ans += solve(i-2, j-1)     # tromino
+            else:  # j > i
+                ans += solve(i, j-2)
+                ans += solve(i-1, j-2)
+
+            memo[(i, j)] = ans % MOD
+            return memo[(i, j)]
+
+        return solve(n, n)
+
+
+# Time: O(N)    # as abs(i-j) <= 1 so both going from n->1 togother, so technically only 1 variable changing
+# Space: O(N*N)
+
+
+
+
+##########################################
+
+
+
 # https://leetcode.com/problems/domino-and-tromino-tiling/
 # https://youtu.be/7cijrfUkQzc
 
