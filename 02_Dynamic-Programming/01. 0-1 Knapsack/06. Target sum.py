@@ -33,3 +33,36 @@ class Solution:
         
         return dp[-1][-1] # dp[len(nums)][s1]
     
+
+
+
+
+#Memoization (Top-down) approach
+
+class Solution:
+    def findTargetSumWays(self, nums: List[int], target: int) -> int:    
+        def dfs(i,tgt):
+        # Base case: if we have reached the end of the list
+            if i==0:
+                if tgt==0:
+                    return 1
+                else:
+                    return 0
+            if (i,tgt) in dp:
+                return dp[(i,tgt)] 
+            if nums[i]<=tgt:
+                pick=dfs(i-1,tgt-nums[i])
+            not_pick=dfs(i-1,tgt)
+
+            dp[(i,tgt)]=pick+not_pick
+        
+
+            return dp[(i,tgt)]
+        
+        if (sum(nums)+target)%2==0:
+         # Create a memoization dictionary
+            dp={}
+            tgt=(sum(nums)+target)//2
+            return dfs(len(nums)-1,tgt)
+        else:
+            return 0
