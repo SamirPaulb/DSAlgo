@@ -1,4 +1,4 @@
-https://leetcode.com/problems/score-after-flipping-matrix/description/
+# https://leetcode.com/problems/score-after-flipping-matrix/description/
 
 class Solution:
     def matrixScore(self, grid: List[List[int]]) -> int:
