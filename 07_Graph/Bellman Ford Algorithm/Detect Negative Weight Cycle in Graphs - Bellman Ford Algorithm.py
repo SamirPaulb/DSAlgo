@@ -7,7 +7,7 @@ class Solution:
         dist = [2**31] * n
         dist[0] = 0
 
-        for i in range(n):
+        for i in range(n - 1):
             for j in range(len(edges)):
                 frm = edges[j][0]
                 to = edges[j][1]
