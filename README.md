@@ -69,7 +69,7 @@ I am continuously trying to improve this repository by adding new questions and 
 - Provide well-documented source code with detailed explanations.
 
 #### Stargazers over time
-<a href="https://github.com/SamirPaulb/DSAlgo"><img alt="Star History" loading="lazy"  src="https://api.star-history.com/svg?repos=SamirPaulb/DSAlgo&type=Date"></a>
+<a href="https://github.com/SamirPaulb/DSAlgo"><img alt="Star History" loading="lazy"  src="https://star-history.dera.page/svg?repos=SamirPaulb/DSAlgo&type=Date"></a>
 
 ---
 ### More Resources:
