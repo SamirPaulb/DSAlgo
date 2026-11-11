@@ -17,6 +17,22 @@
 
 In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python3 in a structured manner.✨
 
+## **Website & Autofill Extension**
+[![Apply to jobs in seconds with Zapply.](https://github.com/user-attachments/assets/bf9cb23f-ee36-454c-a2c2-c41e857ea7b5)](https://app.zapply.jobs/onboarding/?ref=github-cta-SamirPaulb)
+Explore Zapply's website and check out:
+- Our Chrome extension, which autofills job applications in seconds.
+- A dedicated job board featuring the latest openings across various roles.
+- User accounts with multiple profiles for different resume types and roles.
+- Job application tracking with streaks and commitment awards.
+
+Experience an advanced career journey with us! 🚀
+<p align="center">
+<a href="https://app.zapply.jobs/onboarding/?ref=github-cta-SamirPaulb">
+<img src="https://github.com/user-attachments/assets/3a696bf8-e13e-4c2b-a771-2dab199dca4a" alt="Visit Zapply" width="700">
+</a>
+</p>
+<p align="right"><sub>Sponsored by Zapply</sub></p>
+
 :heavy_check_mark:  <ins>_**Topics Covered**_</ins>:
 - [x]  [**LeetCode All Problems Solutions**](https://github.com/SamirPaulb/DSAlgo/tree/main/01_LeetCode)
 - [x]  [**Dynamic Programming**](https://github.com/SamirPaulb/DSAlgo/tree/main/02_Dynamic-Programming)
